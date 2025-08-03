@@ -1,0 +1,11 @@
+---
+title: "Papers"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+PAPERS
+:::
+:::
+
+References

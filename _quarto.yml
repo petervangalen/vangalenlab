@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "Van Galen Lab"
+  favicon: "images/favicon.svg"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: news.qmd
+        text: News
+      - href: papers.qmd
+        text: Papers
+      - href: people.qmd
+        text: People
+      - href: forest.qmd
+        text: Forest
+      - href: support.qmd
+        text: Support
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "© 2025 Van Galen Lab — All Rights Reserved — [Privacy Policy](https://www.massgeneralbrigham.org/en/notices/web-privacy-policy){target='_blank'}"
+    right: 
+      - icon: github
+        href: https://github.com/petervangalen
+        target: _blank
+      - text: "<img src='images/bluesky.png' style='width:14px; height:14px; filter: brightness(0) invert(1); vertical-align: middle; margin-top: -3px'>"
+        href: https://bsky.app/profile/vangalenlab.bsky.social
+        target: _blank
+      - icon: envelope
+        href: mailto:pvangalen@bwh.harvard.edu
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: false
+
+
+

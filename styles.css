@@ -1,0 +1,165 @@
+/* css styles */
+
+/* Navigation bar --------------------------------------------------- */
+
+/* Navbar background */
+.navbar {
+  background-color: #F46D43 !important;
+}
+
+/* Link colors */
+.navbar a {
+  color: #ffffff !important;
+}
+
+/* Active tab color */
+.navbar .nav-link.active {
+  color: #FFED6F !important; 
+}
+
+/* White search icon in navbar */
+.navbar .aa-DetachedSearchButton svg {
+  color: white !important;
+  fill: white !important;
+}
+
+/* White hamburger menu icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+/* Home page banner ------------------------------------------------- */
+
+/* Hero banner styling */
+.hero-banner-home {
+  position: relative;
+  width: 100vw;
+  height: 200px;
+  background-image: url('images/banner-proteins.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  padding: 8vh 0;
+  color: white;
+  text-align: center;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.VGL-top {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  color: #ffffff;
+  padding-right: 100px;
+  margin-top: -2rem;
+  margin-bottom: -5rem;
+  font-weight: bold;
+}
+
+.VGL-bottom {
+  position: relative;
+  text-align: center;
+  font-size: 80px;
+  color: #EEECEA;
+  padding-left: 150px;
+  margin-bottom: -2.5rem;
+  font-weight: bold;
+}
+
+.VGL-byline {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #0A0C46, -1px -1px 0 #0A0C46, 1px -1px 0 #0A0C46, -1px 1px 0 #0A0C46;
+  padding-top: 0px;
+  margin-bottom: -2rem;
+}
+
+/* Remove title spacing */
+header.quarto-title-block {
+  display: none !important;
+}
+
+/* Banners ---------------------------------------------------------- */
+
+/* Simple dark banner bar for non-home pages */
+.hero-banner {
+  width: 100vw;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  min-height: 120px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-banner .banner-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Remove main content top margin for banners */
+main.content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+/* Home page layout ------------------------------------------------- */
+
+/* Centered headings with lines */
+.heading-with-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.heading-with-lines::before,
+.heading-with-lines::after {
+  margin: 1rem 0 1rem 0;
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.heading-with-lines > h4 {
+  margin: 1rem 0 1rem 0;
+  white-space: nowrap;
+}
+
+.heading-with-lines .anchorjs-link {
+  display: none;
+}
+
+/* Footer ----------------------------------------------------------- */
+
+/* Target the footer content area */
+.page-footer > div,
+footer > div {
+  background-color: #2c3e50 !important;
+}
+
+/* Footer text color */
+.footer * {
+  color: white !important;
+}
+
+.footer a:hover {
+  color: #ecf0f1 !important;
+}

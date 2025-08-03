@@ -1,0 +1,11 @@
+---
+title: "News"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+NEWS
+:::
+:::
+
+News & events
