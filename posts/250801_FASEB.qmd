@@ -1,0 +1,16 @@
+---
+title: "FASEB Hematologic Malignancies 2025"
+date: "2025-08-01"
+image: "../images/posts/250801_FASEB.jpeg"
+description: "Great representation of the lab..!"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Southbridge picture](../images/posts/250801_FASEB.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Great representation of the lab..!

@@ -8,4 +8,21 @@ SUPPORT
 :::
 :::
 
-Support us
+#### Be Part of the Solution
+
+By supporting our research on blood disorders, you can increase our bandwidth to take on new scientific questions and help patients. If you would like to learn more about how our research makes a difference, please reach out to [Peter van Galen](mailto:pvangalen@bwh.harvard.edu).
+
+To help by making a donation, you can contact [Michael Miller](mailto:mhmiller@bwh.harvard.edu), Administrative Director of the Hematology Division.
+
+Or, you can make a donation online:
+
+<div style="text-align: left; margin: 20px 0;">
+<a href="https://giving.brighamandwomens.org/"
+   target="_blank"
+   class="donation-button">
+   BWH Giving
+</a>
+</div>
+
+Choose “Other”, and input “Van Galen Lab”.
+

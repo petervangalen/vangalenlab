@@ -1,0 +1,16 @@
+---
+title: "Walden Pond Hike"
+date: "2023-07-14"
+image: "../images/posts/230714_Lab_hike.jpeg"
+description: "Hike around Walden Pond, Massachusetts 🥾"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Walden Pond](../images/posts/230714_Lab_hike.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Hike around Walden Pond, Massachusetts 🥾

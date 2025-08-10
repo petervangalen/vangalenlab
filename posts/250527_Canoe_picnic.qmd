@@ -1,0 +1,16 @@
+---
+title: "Canoe picnic outing"
+date: "2025-05-27"
+image: "../images/posts/250527_Canoe_picnic.jpeg"
+description: "Spring 2025 get-together with alumni and future staff"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Esplanade picture](../images/posts/250527_Canoe_picnic.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Spring 2025 get-together with alumni and future staff

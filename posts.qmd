@@ -1,0 +1,19 @@
+---
+title: "Posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: true
+  filter-ui: false
+  grid-columns: 3
+  fields: [image, date, title, description]
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+

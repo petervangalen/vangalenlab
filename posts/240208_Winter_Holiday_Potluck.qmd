@@ -1,0 +1,16 @@
+---
+title: "Hematology Winter Holiday Potluck"
+date: "2024-02-08"
+image: "../images/posts/240208_Winter_Holiday_Potluck.jpeg"
+description: "Great attendance from the Hematology Division Research Labs!"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![HIM7 Conference Room](../images/posts/240208_Winter_Holiday_Potluck.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Great attendance from the Hematology Division Research Labs!

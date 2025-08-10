@@ -8,8 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: news.qmd
-        text: News
+      - href: posts.qmd
+        text: Posts
       - href: papers.qmd
         text: Papers
       - href: people.qmd
@@ -26,7 +26,7 @@ website:
       - icon: github
         href: https://github.com/petervangalen
         target: _blank
-      - text: "<img src='images/bluesky.png' style='width:14px; height:14px; filter: brightness(0) invert(1); vertical-align: middle; margin-top: -3px'>"
+      - text: "<img src='/images/bluesky.png' style='width:14px; height:14px; filter: brightness(0) invert(1); vertical-align: middle; margin-top: -3px'>"
         href: https://bsky.app/profile/vangalenlab.bsky.social
         target: _blank
       - icon: envelope

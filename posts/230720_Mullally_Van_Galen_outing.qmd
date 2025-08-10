@@ -1,0 +1,16 @@
+---
+title: "Mullally/Van Galen Labs: Boston Commons + Sunset Cruise"
+date: "2023-07-20"
+image: "../images/posts/230720_Mullally_Van_Galen_outing.jpeg"
+description: "Thanks Ksenia, Nurefsan, and Benny for organizing!"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Badminton at Boston Commons](../images/posts/230720_Mullally_Van_Galen_outing.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Thanks Ksenia, Nurefsan, and Benny for organizing!

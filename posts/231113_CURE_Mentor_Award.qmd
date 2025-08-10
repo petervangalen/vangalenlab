@@ -1,0 +1,16 @@
+---
+title: "CURE Mentor Appreciation Award"
+date: "2023-11-13"
+image: "../images/posts/231113_CURE_Mentor_Award.jpeg"
+description: "Super honored to receive the Mentor Appreciation Award from the DF/HCC Continuing Umbrella of Research Experiences (CURE) Program."
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![CURE Poster presentation](../images/posts/231113_CURE_Mentor_Award.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Super honored to receive the Mentor Appreciation Award from the Dana-Farber/Harvard Cancer Center (DF/HCC) Continuing Umbrella of Research Experiences (CURE) Program.

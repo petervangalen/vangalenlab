@@ -1,0 +1,16 @@
+---
+title: "Sarah Farewell Party"
+date: "2023-08-01"
+image: "../images/posts/230801_Sarah_Farewell.jpeg"
+description: "We are sad to see you go but also excited that you are pursuing your dreams in grad school!"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![CURE Poster presentation](../images/posts/230801_Sarah_Farewell.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+We are sad to see you go but also excited that you are pursuing your dreams in grad school!

@@ -1,0 +1,16 @@
+---
+title: "Mullally-Van Galen Science Alliance Outing"
+date: "2025-07-30"
+image: "../images/posts/240730_Mullally_VanGalen_outing.jpeg"
+description: "Castle Island Barbeque + Cycle Boat"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Castle Island picture](../images/posts/240730_Mullally_VanGalen_outing.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Castle Island Barbeque + Cycle Boat

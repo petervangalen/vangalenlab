@@ -1,0 +1,16 @@
+---
+title: "Holiday Dinner 2023"
+date: "2024-01-10"
+image: "../images/posts/240110_Holiday_Dinner.jpeg"
+description: "McAllister + Van Galen Lab Holiday Dinner at Joe's Waterfront 🍔"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![CURE Poster presentation](../images/posts/240110_Holiday_Dinner.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+McAllister + Van Galen Lab Holiday Dinner at Joe's Waterfront 🍔

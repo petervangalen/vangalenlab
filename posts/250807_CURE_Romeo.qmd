@@ -1,0 +1,16 @@
+---
+title: "Summer internships"
+date: "2025-08-07"
+image: "../images/posts/250807_Cure_Romeo.jpeg"
+description: "Congratulations Romeo, Matthew, and Franklin on completing your summer internships!"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![CURE Poster presentation](../images/posts/250807_Cure_Romeo.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Congratulations Romeo, Matthew, and Franklin on completing your summer internships!

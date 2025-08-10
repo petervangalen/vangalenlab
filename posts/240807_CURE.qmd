@@ -1,0 +1,16 @@
+---
+title: "CURE Student Poster Session"
+date: "2024-08-07"
+image: "../images/posts/240807_CURE.jpeg"
+description: "Thanks Jennifer and good luck with your future endeavors"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![CURE Poster presentation](../images/posts/240807_CURE.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Thanks Jennifer and good luck with your future endeavors
