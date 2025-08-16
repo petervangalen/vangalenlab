@@ -1,12 +1,8 @@
 ---
 title: "Contact"
+subtitle: "Get in touch"
+title-block-banner: "#2c3e50"
 ---
-
-::: {.hero-banner}
-::: {.banner-text}
-CONTACT
-:::
-:::
 
 The Van Galen Lab started in 2019 at the Hematology Division of the Brigham and Women’s Hospital. We are located in the Harvard Institutes of Medicine building. If you are interested in joining the lab, please explain your research interests and send it along with a CV to [pvangalen@bwh.harvard.edu](mailto:pvangalen@bwh.harvard.edu).
 

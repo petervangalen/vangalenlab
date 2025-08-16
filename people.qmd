@@ -1,11 +1,7 @@
 ---
 title: "People"
+subtitle: "Members of the Van Galen Lab"
+title-block-banner: "#2c3e50"
 ---
-
-::: {.hero-banner}
-::: {.banner-text}
-PEOPLE
-:::
-:::
 
 People

@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 ---
 
 ::: {.hero-banner-home .home}
@@ -21,7 +21,7 @@ Blood aging and leukemia research through data science and experimental biology
 Hematopoietic stem cells (HSCs) in the bone marrow produce over 100 billion new blood cells daily. As we age, these stem cells change, which can lead to immune dysfunction and transformation into leukemia. At the Van Galen Laboratory, we study these processes using experimental and computational tools, including single-cell sequencing and bioinformatics. Our goal is to translate a deeper understanding of blood cells into new therapies that improve human health.
 
 ::: {.heading-with-lines}
-#### Data Science Innovation
+### Data Science Innovation
 :::
 ::: {layout-ncol=2}
 ::: {.column}
@@ -36,7 +36,7 @@ Image from Weng *et al.*, Nature 2024.
 :::
 
 ::: {.heading-with-lines}
-#### Hematopoietic Stem Cell Aging
+### Hematopoietic Stem Cell Aging
 :::
 ::: {layout-ncol=2}
 ::: {.column}
@@ -51,7 +51,7 @@ Image adapted from Guilliams *et al.*, Immunity 2018.
 :::
 
 ::: {.heading-with-lines}
-#### Acute Myeloid Leukemia Treatment
+### Acute Myeloid Leukemia Treatment
 :::
 ::: {layout-ncol=2}
 ::: {.column}

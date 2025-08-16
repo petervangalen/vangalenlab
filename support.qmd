@@ -1,14 +1,8 @@
 ---
 title: "Support"
+subtitle: "Be part of the solution"
+title-block-banner: "#2c3e50"
 ---
-
-::: {.hero-banner}
-::: {.banner-text}
-SUPPORT
-:::
-:::
-
-#### Be Part of the Solution
 
 By supporting our research on blood disorders, you can increase our bandwidth to take on new scientific questions and help patients. If you would like to learn more about how our research makes a difference, please reach out to [Peter van Galen](mailto:pvangalen@bwh.harvard.edu).
 
@@ -16,13 +10,7 @@ To help by making a donation, you can contact [Michael Miller](mailto:mhmiller@b
 
 Or, you can make a donation online:
 
-<div style="text-align: left; margin: 20px 0;">
-<a href="https://giving.brighamandwomens.org/"
-   target="_blank"
-   class="donation-button">
-   BWH Giving
-</a>
-</div>
+<a href="https://giving.brighamandwomens.org/" class="btn btn-success">BWH Giving</a>
 
 Choose “Other”, and input “Van Galen Lab”.
 

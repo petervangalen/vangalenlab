@@ -1,9 +1,14 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Van Galen Lab"
   favicon: "images/favicon.svg"
+  announcement: 
+    content: "This website is a work in progress—see [https://vangalenlab.bwh.harvard.edu](https://vangalenlab.bwh.harvard.edu) for complete contents."
+    type: success
+    dismissible: true
   navbar:
     left:
       - href: index.qmd
@@ -12,6 +17,8 @@ website:
         text: Posts
       - href: papers.qmd
         text: Papers
+      - href: resources.qmd
+        text: Resources
       - href: people.qmd
         text: People
       - href: forest.qmd
@@ -21,7 +28,7 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    left: "© 2025 Van Galen Lab — All Rights Reserved — [Privacy Policy](https://www.massgeneralbrigham.org/en/notices/web-privacy-policy){target='_blank'}"
+    left: "© 2025 Van Galen Lab — All Rights Reserved — [Privacy Policy](https://www.massgeneralbrigham.org/en/notices/web-privacy-policy)"
     right: 
       - icon: github
         href: https://github.com/petervangalen
@@ -34,11 +41,9 @@ website:
 
 format:
   html:
-    theme:
-      - flatly
-      - brand
     css: styles.css
-    toc: false
-
-
-
+    theme: flatly
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">

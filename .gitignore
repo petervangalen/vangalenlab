@@ -1,5 +1,5 @@
 /.quarto/
-/.ala-labs/
+.ala-labs
 _site/
 .DS_Store
 

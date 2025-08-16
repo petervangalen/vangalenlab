@@ -1,11 +1,6 @@
 ---
 title: "Papers"
+title-block-banner: "#2c3e50"
 ---
 
-::: {.hero-banner}
-::: {.banner-text}
-PAPERS
-:::
-:::
-
-References
+#### References
