@@ -1,6 +1,132 @@
 ---
 title: "Papers"
 title-block-banner: "#2c3e50"
+freeze: true
 ---
 
-#### References
+Enter "true" under ★ to filter for first- and corresponding-author research papers and reviews.
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+#| column: page
+
+library(tidyverse)
+library(here)
+library(tools)
+library(reactable)
+
+# CSV file is exported from Paperpile
+df <- here::here("paperpile_references.csv") %>%
+  readr::read_csv()
+
+df <- df %>%
+  filter(
+    `Item type` %in%
+      c("Journal Article", "Preprint Manuscript", "Review", "Commentary")
+  ) %>%
+  dplyr::select(
+    Authors,
+    `Publication year`,
+    Title,
+    `Full journal`,
+    DOI,
+    `Labels filed in`
+  ) %>%
+  dplyr::rename(
+    authors = Authors,
+    year = `Publication year`,
+    title = Title,
+    journal = `Full journal`,
+    star = `Labels filed in`
+  ) %>%
+  mutate(
+    year = as.integer(year),
+    journal = tools::toTitleCase(journal),
+    star = case_when(
+      star == "Highlight" ~ T,
+      is.na(star) ~ F
+    )
+  ) %>%
+  arrange(desc(year))
+
+# Shorten author field
+simplify_authors <- function(x) {
+  vapply(
+    strsplit(x, ","),
+    function(parts) {
+      parts <- trimws(parts)
+      parts <- parts[nzchar(parts)]
+      if (length(parts) >= 4) {
+        paste0(parts[1], " et al.")
+      } else {
+        paste(parts, collapse = ", ")
+      }
+    },
+    character(1)
+  )
+}
+
+df$authors_simple <- simplify_authors(df$authors)
+#df %>% select(authors, authors_simple) %>% View
+
+# Add link to title
+df$title_link <- paste0(
+  "<a href='https://doi.org/",
+  df$DOI,
+  "' target='_blank'>",
+  df$title,
+  "</a>"
+)
+
+# Create table
+reactable::reactable(
+  dplyr::select(df, star, authors_simple, year, title_link, journal),
+  defaultSorted = list(year = "desc", star = "desc"),
+  columns = list(
+    star = reactable::colDef(
+      name = "★",
+      width = 50,
+      align = "center",
+      cell = function(value) {
+        if (value) {
+          "★"
+        } else {
+          "☆"
+        }
+      },
+      filterable = T,
+      sortable = F
+    ),
+    authors_simple = reactable::colDef(
+      name = "Authors",
+      minWidth = 100,
+      maxWidth = 250
+    ),
+    year = reactable::colDef(
+      name = "Year",
+      align = "left",
+      minWidth = 80,
+      maxWidth = 130
+    ),
+    title_link = reactable::colDef(
+      name = "Title",
+      html = TRUE,
+      minWidth = 300,
+      maxWidth = 600
+    ),
+    journal = reactable::colDef(
+      name = "Journal",
+      minWidth = 150,
+      maxWidth = 250
+    )
+  ),
+  sortable = T,
+  filterable = T,
+  searchable = T,
+  showPageSizeOptions = T,
+  pageSizeOptions = c(20, 50, 100),
+  defaultPageSize = 20
+)
+```

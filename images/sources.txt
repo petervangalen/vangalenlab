@@ -18,6 +18,11 @@ Broad.svg: https://brandfetch.com/broadinstitute.org?library=default&collection=
 BWH.png: https://partnershealthcare.sharepoint.com/:w:/r/sites/Vitals/_layouts/15/Doc.aspx?sourcedoc=%7BC23D950B-F57C-43B1-A3A9-84BF3CD85871%7D&file=BWH%20Word%20Template.dotx
 HMS.svg: https://identityguide.hms.harvard.edu
 
+#### PEOPLE ####
+Most: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - people
+Peter_van_Galen.jpg: exported from Photos then match to system sRGB Profile
+missing_person.svg: from https://www.veryicon.com/icons/miscellaneous/bitisland-world/person-18.html, edited in Illustrator
+
 #### POSTS ####
 All from Dropbox vangalenlab/Pictures
 

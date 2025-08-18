@@ -6,19 +6,21 @@ title-block-banner: "#2c3e50"
 
 The Van Galen Lab started in 2019 at the Hematology Division of the Brigham and Women’s Hospital. We are located in the Harvard Institutes of Medicine building. If you are interested in joining the lab, please explain your research interests and send it along with a CV to [pvangalen@bwh.harvard.edu](mailto:pvangalen@bwh.harvard.edu).
 
-::: {style="margin-top: 3rem;"}
-:::: {.columns}
-::: {.column width="50%"}
-
+<!-- ::: {style="margin-top: 3rem;"} -->
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
 #### Address
 
 4 Blackfan Street  
 Harvard Institutes of Medicine (HIM) 780  
 Boston, MA 02115
 :::
-
-::: {.column width="50%"}
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.192633893774!2d-71.10375979999999!3d42.3384162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3798c6273be7f%3A0x398f8520b7b5446e!2sHarvard%20Institutes%20of%20Medicine!5e0!3m2!1sen!2sus!4v1754830103868!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+::: {.g-col-12 .g-col-md-6 .text-center}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.192633893774!2d-71.10375979999999!3d42.3384162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3798c6273be7f%3A0x398f8520b7b5446e!2sHarvard%20Institutes%20of%20Medicine!5e0!3m2!1sen!2sus!4v1754830103868!5m2!1sen!2sus"
+        style="max-width: 400px; width: 100%; aspect-ratio: 1; border: 0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 :::
-::::
 :::

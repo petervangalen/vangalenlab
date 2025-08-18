@@ -9,7 +9,7 @@
 
 /* Link colors */
 .navbar a {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Active tab color */
@@ -19,8 +19,8 @@
 
 /* White search icon in navbar */
 .navbar .aa-DetachedSearchButton svg {
-  color: white !important;
-  fill: white !important;
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
 }
 
 /* White hamburger menu icon */
@@ -34,7 +34,7 @@
 .hero-banner-home {
   position: relative;
   width: 100vw;
-  height: 200px;
+  height: 12.5rem;
   background-image: url('images/banner-proteins.jpg');
   background-size: cover;
   background-position: center;
@@ -43,8 +43,7 @@
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  padding: 8vh 0;
-  color: white;
+  padding: 5rem 0;
   text-align: center;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
@@ -55,9 +54,9 @@
 .VGL-top {
   position: relative;
   text-align: center;
-  font-size: 80px;
+  font-size: 5rem;
   color: #ffffff;
-  padding-right: 100px;
+  padding-right: 7rem;
   margin-top: -2rem;
   margin-bottom: -5rem;
   font-weight: bold;
@@ -66,20 +65,47 @@
 .VGL-bottom {
   position: relative;
   text-align: center;
-  font-size: 80px;
-  color: #EEECEA;
-  padding-left: 150px;
+  font-size: 5rem;
+  color: #E2E0DC;
+  padding-left: 9.3rem;
   margin-bottom: -2.5rem;
   font-weight: bold;
 }
 
 .VGL-byline {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px 0 #0A0C46, -1px -1px 0 #0A0C46, 1px -1px 0 #0A0C46, -1px 1px 0 #0A0C46;
-  padding-top: 0px;
+  padding-top: 0;
   margin-bottom: -2rem;
+}
+
+/* Mobile responsive adjustments for hero banner */
+@media (max-width: 768px) {
+  .hero-banner-home {
+    height: auto;
+    margin-top: -2.5rem;
+    padding: 4rem 0;
+  }
+  
+  .VGL-top {
+    font-size: 3rem;
+    padding-right: 1.9rem;
+    margin-bottom: -3.5rem;
+  }
+  
+  .VGL-bottom {
+    font-size: 3rem;
+    padding-left: 6.25rem;
+    margin-bottom: -2rem;
+  }
+  
+  .VGL-byline {
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: -3rem;
+  }
 }
 
 /* Title block text */

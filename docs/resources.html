@@ -190,33 +190,29 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<section id="data-and-analysis" class="level1 page-columns page-full">
+<section id="data-and-analysis" class="level1">
 <h1>Data and Analysis</h1>
 <hr>
-<section id="bpdcn-evolution" class="level3 custom-position page-columns page-full">
+<section id="bpdcn-evolution" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="bpdcn-evolution">BPDCN EVOLUTION</h3>
-<div class="column-body quarto-layout-panel" style="float:center;" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/resources/BPDCN-UV.png" class="img-fluid" style="width:300px; display:block; margin:auto;"></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/BPDCN-UV.png" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
 </div>
-<div class="g-col-1 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><strong>2023</strong> | Dendritic cell leukemia evolution.</p>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2023</strong> | How pre-leukemic cells in the bone marrow can evolve to a full-blown dendritic cell leukemia after acquiring DNA mutations in the skin.</p>
 <ul>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.nature.com/articles/s41586-023-06156-8">Paper</a>: Griffin GK <em>et al.</em> Ultraviolet radiation shapes dendritic cell leukaemia transformation in the skin. Nature, 2023</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/Single-cell_BPDCN">Single-cell_BPDCN</a>: R scripts to analyze the single-cell gene expression and genotyping data.</li>
 <li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227690">GEO</a>: Raw and processed sequencing data.</li>
 </ul>
 </div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <!-- Additionally, the following links were on the previous Van Galen Lab website. These Seurat files contain gene expression matrices and metadata, including cell annotations and genotyping calls. They can be read into R with readRDS(). The data were generated using 10x 3' v3.1, 10x 3' v3, and Seq-Well S^3 protocols, as indicated in Supplemental Table 3a of the paper. The healthy control object contains 20,411 high-quality cells from six donors. These links are now broken:
 * [BM_Seurat_Final.rds](https://www.dropbox.com/s/kjj681rztlw6l5d/BM_Seurat_Final.rds?dl=0): Six healthy controls  
 * [Pt1Dx_Seurat_Final.rds](https://www.dropbox.com/s/6urouygij9t2onz/Pt1Dx_Seurat_Final.rds?dl=0): Pt1Dx  
@@ -231,30 +227,24 @@ ul.task-list li input[type="checkbox"] {
 * [Pt15Dx_Seurat_Final.rds](https://www.dropbox.com/s/xif3dxnb84m9mrk/Pt15Dx_Seurat_Final.rds?dl=0): Pt15Dx  
 * [Pt16Dx_Seurat_Final.rds](https://www.dropbox.com/s/bwsqdbrt386cgrp/Pt16Dx_Seurat_Final.rds?dl=0): Pt16Dx -->
 </div>
-</div>
-</div>
 <hr>
 </section>
-<section id="maester" class="level3 custom-position page-columns page-full">
+<section id="maester" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="maester">MAESTER</h3>
-<div class="column-body quarto-layout-panel" style="float:center;" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/resources/MAESTER.png" class="img-fluid" style="width:300px; display:block; margin:auto;"></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/MAESTER.png" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
 </div>
-<div class="g-col-1 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><strong>2022</strong> | Resolving clonal populations using mitochondrial variants.</p>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2022</strong> | How mitochondrial DNA mutations can be used to determine the clonal relationships between single cells.</p>
 <ul>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.nature.com/articles/s41587-022-01210-8">Paper</a>: Miller TE <em>et al.</em> Mitochondrial variant enrichment from high-throughput single-cell RNA sequencing resolves clonal populations. Nat Biotechnol, 2022</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/MAESTER-2021">MAESTER-2021</a>: Scripts used to analyze the data and generate figures.</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/caleblareau/maegatk">maegatk</a>: Mitochondrial Alteration Enrichment and Genome Analysis Toolkit to process <code>.bam</code> files with mitochondrial reads to generate heteroplasmy estimation in single cells.</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/EDePasquale/Mitochondrial_variants">Mitochondrial_variants</a>: A table of mitochondrial variants, their effects on the resultant proteins, and the potential beneficial/detrimental consequences of mutations.</li>
-<li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182685">GEO</a>: : Raw and processed sequencing data.</li>
+<li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182685">GEO</a>: Raw and processed sequencing data.</li>
 </ul>
 </div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <!-- Additionally, the following datafiles were availabe on the prevous version of the Van Galen Lab website to facilitate script execution. The links are now dead:
 * [SW_CellLineMix_All_mr3_maegatk.rds](https://www.dropbox.com/s/0l09x5fxiyd5xey/SW_CellLineMix_All_mr3_maegatk.rds?dl=0): MAESTER mitochondrial variant data: Seq-Well cell line mix (all reads)  
 * [SW_CellLineMix_RNAseq_mr3_maegatk.rds](https://www.dropbox.com/s/7sjpfcpuurl61x1/SW_CellLineMix_RNAseq_mr3_maegatk.rds?dl=0): MAESTER mitochondrial variant data: Seq-Well cell line mix (RNA-seq reads only)  
@@ -276,19 +266,16 @@ ul.task-list li input[type="checkbox"] {
 * [BPDCN712_Seurat_Final.rds](https://www.dropbox.com/s/vna1k3k7khazd7j/BPDCN712_Seurat_Final.rds?dl=0): Seurat object: 10x clonal hematopoiesis sample (filtered)  
 * [BPDCN712_Seurat_with_TCR.rds](https://www.dropbox.com/s/104j01fbdybko1a/BPDCN712_Seurat_with_TCR.rds?dl=0): Seurat object: 10x clonal hematopoiesis sample (additional metadata) -->
 </div>
-</div>
-</div>
 <hr>
 </section>
-<section id="wat3r" class="level3 custom-position page-columns page-full">
+<section id="wat3r" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="wat3r">WAT3R</h3>
-<div class="column-body quarto-layout-panel" style="float:center;" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/resources/WAT3R-logo.png" class="img-fluid" style="width:150px; display:block; margin:auto;"></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/WAT3R-logo.png" class="img-fluid" style="width:150px; display:block; margin:5px auto -20px auto;"></p>
 </div>
-<div class="g-col-1 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><strong>2022</strong> | T cell receptor (TCR) recovery from 3’ single-cell RNA-sequencing</p>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2022</strong> | Recovering T cell receptors (TCRs) from 3’ single-cell RNA-sequencing.</p>
 <ul>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://academic.oup.com/bioinformatics/article/38/14/3645/6604269">Paper</a>: Ainciburu M <em>et al.</em> WAT3R: recovery of T-cell receptor variable regions from 3’ single-cell RNA-sequencing. Bioinformatics, 2022</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/mainciburu/WAT3R">WAT3R</a>: Pipeline to process data generated by the protocol T-cell Receptor Enrichment to linK clonotypes by sequencing (TREK-seq).</li>
@@ -296,37 +283,28 @@ ul.task-list li input[type="checkbox"] {
 <li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195956">GEO</a>: Raw and processed single-cell RNA and TCR-seq sequencing data.</li>
 </ul>
 </div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <!-- Additionally, the processed PBMC data were on the Van Galen Lab website. These links are now dead:
 * [PB01_Seurat.rds](https://www.dropbox.com/s/aj64kffjmqto7zo/PB01_Seurat.rds?dl=0): Seurat object with gene expression and cell annotations  
 * [PB01_clusters.txt](https://www.dropbox.com/s/h7ahlw4z09myxgl/PB01_clusters.txt?dl=0): Cell annotations  
 * [PB01_barcode_results.csv](https://www.dropbox.com/s/5bnn6ttavgyr38f/PB01_barcode_results.csv?dl=0): WAT3R results table, summarized per cell barcode (used commonly)  
 * [PB01_barcode_UMI_results.csv](https://www.dropbox.com/s/3hewmrr0piq4yea/PB01_barcode_UMI_results.csv?dl=0): WAT3R results table, summarized per UMI (used less commonly)   -->
 </div>
-</div>
-</div>
 <hr>
 </section>
-<section id="t-cells-in-bpdcn" class="level3 custom-position page-columns page-full">
+<section id="t-cells-in-bpdcn" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="t-cells-in-bpdcn">T CELLS IN BPDCN</h3>
-<div class="column-body quarto-layout-panel" style="float:center;" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/resources/BPDCN-T-cells.png" class="img-fluid" style="width:300px; display:block; margin:auto;"></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/BPDCN-T-cells.png" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
 </div>
-<div class="g-col-1 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><strong>2022</strong> | Description of project</p>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2022</strong> | Here we explore the mechanisms of immune dysfuction in a rare dendritic cell leukemia.</p>
 <ul>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.frontiersin.org/articles/10.3389/fimmu.2022.809414/abstract">Paper</a>: DePasquale EAK <em>et al.</em> Single-cell multiomics reveals clonal T-cell expansions and exhaustion in blastic plasmacytoid dendritic cell neoplasm. Front Immunol, 2022</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/EDePasquale/BPDCN">BPDCN</a>: Scripts used to analyze the data and generate figures for the paper.</li>
 <li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189431">GEO</a>: Raw and processed single-cell RNA and TCR-seq sequencing data.</li>
 </ul>
 </div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <!-- Additionally, the following files were on the previous Van Galen Lab website, but the links are now dead. They contain gene expression and cell annotations, not TCR sequencing data (which is on GEO). The data were generated using 10x 3′ v3.0 and v3.1 protocols. The healthy control object contains 25,726 high-quality cells from five donors.
 * [Controls.rds](https://www.dropbox.com/s/3d9alcihsfuai3g/Controls.rds?dl=0): Five healthy controls - Integrated Seurat object
 * [BPDCN1.rds](https://www.dropbox.com/s/pjudrw1hmcsx0aq/BPDCN1.rds?dl=0): BPDCN1 - Seurat object
@@ -335,18 +313,15 @@ ul.task-list li input[type="checkbox"] {
 * [BPDCN4.rds](https://www.dropbox.com/s/87i3u0223v18kxd/BPDCN4.rds?dl=0): BPDCN4 - Seurat object
 * [BPDCN5.rds](https://www.dropbox.com/s/6x46izpb36l8k8z/BPDCN5.rds?dl=0): BPDCN5 - Seurat object -->
 </div>
-</div>
-</div>
 <hr>
 </section>
-<section id="single-cell-aml" class="level3 custom-position page-columns page-full">
+<section id="single-cell-aml" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="single-cell-aml">SINGLE-CELL AML</h3>
-<div class="column-body quarto-layout-panel" style="float:center;" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/resources/Single-cell_AML.jpg" class="img-fluid" style="width:300px; display:block; margin:auto;"></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/Single-cell_AML.jpg" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
 </div>
-<div class="g-col-1 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="g-col-12 g-col-md-6">
 <p><strong>2019</strong> | Analysis of acute myeloid leukemia cell heterogeneity.</p>
 <ul>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.cell.com/cell/fulltext/S0092-8674(19)30094-7">Paper</a>: van Galen P <em>et al.</em> Single-cell RNA-seq reveals AML hierarchies relevant to disease progression and immunity. Cell, 2019</li>
@@ -355,30 +330,23 @@ ul.task-list li input[type="checkbox"] {
 <li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256">GEO</a>: Raw and processed single-cell RNA and TCR-seq sequencing data.</li>
 </ul>
 </div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <!-- Additionally, the following data file was available on the previous Van Galen Lab website with the description: "The following Seurat file is here to facilitate the use of single-cell RNA-seq from diagnosis (day 0) AML samples and healthy controls. The data was generated using Seq-Well. The Seurat object contains 22,600 cells from 22 samples with metadata columns including cell type. Follow-up samples are not included in this file: to access the full dataset, use the GEO link above." The link is now dead (and the datat can be accessed on the second Github repository):
 * [Seurat object with single-cel AML data](https://www.dropbox.com/s/399x045zc57fiut/Seurat_AML.rds?dl=0) -->
 </div>
-</div>
-</div>
 <hr>
 </section>
-<section id="mint-chip" class="level3 custom-position page-columns page-full">
+<section id="mint-chip" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="mint-chip">MINT-CHIP</h3>
-<div class="column-body quarto-layout-panel" style="float:center;" data-layout="[1,1]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/resources/MintChIP.png" class="img-fluid" style="width:300px; display:block; margin:auto;"></p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/MintChIP.png" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
 </div>
-<div class="g-col-1 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><strong>2016</strong> | Low input ChIP-seq</p>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2016</strong> | Here we introduce a new method to enable chromatin immunoprecipitation + sequencing (ChIP-seq) on small cell numbers.</p>
 <ul>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.cell.com/molecular-cell/fulltext/S1097-2765(15)00863-1">Paper</a>: van Galen P <em>et al.</em> A multiplexed system for quantitative comparisons of chromatin landscapes. Mol Cell, 2016</li>
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.protocols.io/view/mint-chip3-a-low-input-chip-seq-protocol-using-mul-wbefaje">Protocol</a>: Step-by-step protocol to carry out Mint-ChIP.</li>
 </ul>
-</div>
 </div>
 </div>
 <hr>
@@ -463,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Learning</h1>
 <section id="r-for-statistical-computing" class="level3">
 <h3 class="anchored" data-anchor-id="r-for-statistical-computing">R for Statistical Computing</h3>
-<p><img src="images/resources/pivot_longer.jpg" class="img-fluid" style="width:300px; float:right; margin:0 0 20px 20px;"></p>
+<p><img src="images/resources/pivot_longer.jpg" class="img-fluid" style="width:300px; float:right; margin:0 25px 0 20px;"></p>
 <ul>
 <li>R for Data Science (<a href="https://r4ds.hadley.nz">book</a>)</li>
 <li>TidyTuesday (<a href="https://www.youtube.com/user/safe4democracy/videos">videos</a>)</li>
