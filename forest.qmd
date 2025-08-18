@@ -2,6 +2,81 @@
 title: "Forest"
 subtitle: "Alumni of the Van Galen Lab"
 title-block-banner: "#2c3e50"
+freeze: true
+resources:
+  - "images/"
 ---
 
+Inspired by the band [Cake](https://www.cakemusic.com/forest-2019-20), Van Galen Lab alumni will get a plant and be placed on a map according to their next adventure.
 
+```{r}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+
+# Alumni data with coordinates
+alumni_data <- tribble(
+  ~name, ~position, ~lat, ~lng, ~image_path,
+  "Marina Ainciburu", "Marina went back to finish her graduate work at the University of Navarra in 2021.", 42.80160198534935, -1.6592108889039419, "images/people/Marina_Ainciburu.jpg",
+  "Jean Acosta", "Jean went to work at bluebird bio in 2021.", 42.36516686902243, -71.07953954532121, "images/people/Jean_Acosta.png",
+  "Jenny Noel", "Jenny went to pursue her Nursing degree at MGH and BWH in 2022.", 42.33638598770364, -71.10670861471547, "images/people/Jenny_Noel.jpg",
+  "Feyza Canan", "Feyza returned to Medical School in Ankara after her 2022 summer internship.", 39.92538859206633, 32.78472660149568, "images/people/Feyza_Canan.jpeg",
+  "Erica DePasquale", "Erica left the lab in 2022 and is now an Assistant Professor at Cincinnati Children's Hospital.", 39.14057493497279, -84.5008852422916, "images/people/Erica_DePasquale.jpg",
+  "Daniel Ssozi", "Daniel started the Albert Einstein MD/PhD program in 2023.", 40.85069895841855, -73.84593438929224, "images/people/Daniel_Ssozi.jpeg",
+  "Kyle Romine", "Kyle went to head a team investigating antibody-drug conjugates at Seagen in 2023.", 47.8015492611432,  -122.19353231534235, "images/people/Kyle_Romine.jpg",
+  "Sarah Bibeau", "Sarah started her graduate program at Boston College in 2023.", 42.33569142415681, -71.16841244281315, "images/people/Sarah_Bibeau.jpg",
+  "Nurefsan Saripek", "Nurefsan started her residency at Yale School of Medicine in 2025.", 41.30340404108865, -72.93388313754483, "images/people/Nurefsan_Sariipek.jpg",
+  "Noha Awais", "Noha started as a medical student at Harvard Medical School in 2025.", 42.33571930804914, -71.10421707057944, "images/people/Noha_Awais.jpg"
+)
+
+# Create the map
+alumni_data %>%
+  leaflet() %>%
+  addProviderTiles(providers$CartoDB.Voyager) %>%
+  setView(lng = 0, lat = 20, zoom = 2) %>%
+  addCircleMarkers(
+    ~lng, ~lat,
+    radius = 6,
+    color = "black",
+    weight = 1,
+    fillColor = "#18bc9c",
+    fillOpacity = 0.8,
+    popup = ~str_c(
+        "<div style='text-align: left; width: 180px;'>",
+        "<img src='", image_path, "' alt='", name, "' style='width: 150px; height: 150px; object-fit: cover;'>",
+        "<h4 style='margin: 5px 0;'>", name, "</h4>",
+        "<p style='margin: 5px 0;'>", position, "</p>",
+        "</div>"
+)
+  ) %>%
+  addResetMapButton()
+```
+
+
+### Postdocs
+
+| Name | Years | Current Position |
+|------|-------|------------------|
+| Nurefsan Saripek | 2022-2025 | Internal Medicine Resident, Yale School of Medicine |
+| Kyle Romine | 2022-2023 | Scientist, Seagen |
+| Erica DePasquale | 2021-2022 | Assistant Professor, Cincinnati Children's Hospital Medical Center |
+
+### Staff
+
+| Name | Years | Role | Current Position |
+|------|-------|------|------------------|
+| Noha Awais | 2022-2025 | Research technician | Medical Student, Harvard Medical School |
+| Sarah Bibeau | 2022-2023 | Research technician | PhD Program, Boston College |
+| Daniel Ssozi | 2019-2023 | Research technician | MD/PhD Program, Albert Einstein College of Medicine |
+| Jenny Noel | 2021-2022 | Research technician | MGH School of Nursing |
+| Jean Acosta | 2019-2021 | Research technician | Associate Scientist, 2seventy bio |
+
+### Interns
+
+| Name | Years | Home Institution |
+|------|-------|------------------|
+| Marina Ainciburu | 2022 | University of Navarra, Spain |
+| Feyza Canan | 2022 | Lokman Hekim University Faculty of Medicine, Turkey |

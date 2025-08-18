@@ -5,10 +5,10 @@ project:
 website:
   title: "Van Galen Lab"
   favicon: "images/favicon.svg"
-  announcement: 
-    content: "This website is a work in progress—see [https://vangalenlab.bwh.harvard.edu](https://vangalenlab.bwh.harvard.edu) for complete contents."
-    type: success
-    dismissible: true
+  # announcement: 
+  #   content: "This website is a work in progress—see [https://vangalenlab.bwh.harvard.edu](https://vangalenlab.bwh.harvard.edu) for complete contents."
+  #   type: success
+  #   dismissible: true
   navbar:
     left:
       - href: index.qmd
@@ -31,7 +31,7 @@ website:
     left: "© 2025 Van Galen Lab — All Rights Reserved — [Privacy Policy](https://www.massgeneralbrigham.org/en/notices/web-privacy-policy)"
     right: 
       - icon: github
-        href: https://github.com/petervangalen
+        href: https://github.com/petervangalen/vangalenlab
         target: _blank
       - text: "<img src='/images/bluesky.png' style='width:14px; height:14px; filter: brightness(0) invert(1); vertical-align: middle; margin-top: -3px'>"
         href: https://bsky.app/profile/vangalenlab.bsky.social

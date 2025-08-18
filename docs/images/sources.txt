@@ -1,0 +1,56 @@
+#### BANNERS ####
+banner-cells.jpg: from WordPress, uploaded by Marianna Jakab
+banner-dna.jpg: from WordPress, uploaded by Marianna Jakab
+banner-mito.jpg: from WordPress, uploaded by Marianna Jakab
+banner-proteins.jpg: from WordPress, uploaded by Marianna Jakab
+
+#### ICONS ####
+bluesky.png: from https://www.streamlinehq.com/icons/download/bluesky-social-media--23637
+favicon.png: OneDrive-MassGeneralBrigham/lab.ai
+
+#### HOME ####
+240212_ReDeeM.jpeg: OneDrive-MassGeneralBrigham/Funding/Archive/2024-01 MPI R01 with Vijay/Figures/Figure 2.jpeg
+190918_Hierarchy.png: OneDrive-MassGeneralBrigham/Presentations/Figures/190918 Normal - CH - Malignant hierarchy.pdf
+240224_TCR_diversity.png: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - home/240224 TCR diversity.png
+
+#### ORGS ####
+Broad.svg: https://brandfetch.com/broadinstitute.org?library=default&collection=logos&asset=id7dQjAbuE
+BWH.png: https://partnershealthcare.sharepoint.com/:w:/r/sites/Vitals/_layouts/15/Doc.aspx?sourcedoc=%7BC23D950B-F57C-43B1-A3A9-84BF3CD85871%7D&file=BWH%20Word%20Template.dotx
+HMS.svg: https://identityguide.hms.harvard.edu
+
+#### PEOPLE ####
+Most: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - people
+Peter_van_Galen.jpg: exported from Photos then match to system sRGB Profile
+missing_person.svg: from https://www.veryicon.com/icons/miscellaneous/bitisland-world/person-18.html, edited in Illustrator
+
+#### POSTS ####
+All from Dropbox vangalenlab/Pictures
+
+#### RESOURCES ####
+BPDCN-T-cells.png: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - resources/T cells in BPDCN image.png
+BPDCN-UV.png: OneDrive-MassGeneralBrigham/Admin/Website_Quarto-main/images/resources/UV_BPDCN.png
+MAESTER.png: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - resources/MAESTER.ai
+MintChIP.png: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - resources/Mint-ChIP.png
+pivot_longer.jpg: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - resources/pivot_longer.JPG
+Single-cell_AML.jpg: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - resources/Single-cell_AML.jpg
+vector-pMAL.jpeg: OneDrive-MassGeneralBrigham/Admin/Website_WP/Images - resources/pMAL.jpeg
+WAT3R-logo.png: https://github.com/mainciburu/WAT3R/blob/main/logo/WAT3Rlogo.png
+
+#### SUPPORTERS ####
+Abbvie.svg: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/250621 AbbVie.svg
+ASC.svg: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/241013 ACS.svg
+AFAR.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/210212 AFAR 300x300.ai
+Dresner.png: https://dbgdetroit.org/our-partners/dresner-foundation/
+EvansMDS.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/240224 EvansMDS.ai
+Forbeck.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/240224 Forbeck.ai
+Hevolution.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/250610 Hevolution.png
+LLS.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/200328 LLS.png
+Ludwig.svg: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/210212 LudwigHarvard 300x300.ai
+MPNRF.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/241020 MPNRF.png
+NCI.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/170703 NCI logo.ai
+Starr.png: OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/240226 SCC.ai
+
+
+
+
+

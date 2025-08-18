@@ -5,7 +5,7 @@ title-block-banner: "#2c3e50"
 ---
 
 ::: {.grid}
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Peter_van_Galen.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Peter van Galen, PhD**  
@@ -14,63 +14,77 @@ title-block-banner: "#2c3e50"
 <i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/vangalenlab.bsky.social)  
 <i class="fab fa-github"></i> [GitHub](https://github.com/petervangalen)
 <i class="fa-brands fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-0735-1570)  
+<i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=y3NC0VgAAAAJ)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Adrienne_Parsons.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Adrienne Parsons, PhD**  
 *Research Scientist*  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:aparsons6@bwh.harvard.edu)  
+Data analyst leading projects in single-cell multiomics, aging, and cancer.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:aparsons6@bwh.harvard.edu)
+<i class="fab fa-github"></i> [GitHub](https://github.com/adrienneparsons)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Ksenia Safina, PhD**  
 *Postdoctoral Fellow*  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:ksafina@bwh.harvard.edu)  
+Hematopoietic stem cell (HSC) aging and expansion, bioinformatics.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:ksafina@bwh.harvard.edu) 
+<i class="fab fa-github"></i> [GitHub](https://github.com/noranekonobokkusu)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Yoke_Seng_Lee.jpeg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Yoke Seng Lee, PhD**  
 *Postdoctoral Fellow*  
+New targeted therapies for acute myeloid leukemia (AML).  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:ylee62@bwh.harvard.edu)  
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Basit_Salik.png){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Basit Salik, PhD**  
 *Postdoctoral Fellow*  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:bsalik@bwh.harvard.edu)  
+HSC aging, leukemia prevention, and immunotherapeutic targeting.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:bsalik@bwh.harvard.edu)
+<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/basitsalik.bsky.social)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Jingting_Lin.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Jingting Lin**  
 *Graduate Student*  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:yjlin69@bwh.harvard.edu)  
+Protein translation and stress signaling in AML.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:yjlin69@bwh.harvard.edu)
+<i class="fab fa-github"></i> [GitHub](https://github.com/jtl07)
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Jonathan_Good.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Jonathan Good**  
 *Research Technician*  
+Single-cell multiomics and lab management.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:jgood1@bwh.harvard.edu)  
 :::
 
-::: {.g-col-12 .g-col-md-3}
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Hailey_Tolson.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Hailey Tolson**  
 *Research Technician*  
+Protein translation initiation factors and lab management.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:htolson@mgb.org)  
 :::
 :::
+
+<div style="margin-top: 1rem;"></div>
 
 For alumni, see [Forest](https://petervangalen.github.io/vangalenlab/forest.html).
