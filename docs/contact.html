@@ -74,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
         background: #2c3e50;
       }
 </style>
+<meta name="google-site-verification" content="Fj2qPoZI7s1mz_O7toHf8O6thEOo8WCW4FRk9HKZx04">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 
@@ -255,7 +256,7 @@ Boston, MA 02115</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/petervangalen\.github\.io\/vangalenlab\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

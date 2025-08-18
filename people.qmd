@@ -72,7 +72,8 @@ Protein translation and stress signaling in AML.
 **Jonathan Good**  
 *Research Technician*  
 Single-cell multiomics and lab management.  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:jgood1@bwh.harvard.edu)  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:jgood1@bwh.harvard.edu)
+<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/jdgood1.bsky.social)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
