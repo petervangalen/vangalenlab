@@ -162,14 +162,19 @@ title-block-banner: "#2c3e50"
 
 ---
 
-
 # Addgene Plasmids
 
-See also [Addgene website](https://www.addgene.org/Peter_van_Galen/)
+::: {.g-col-12 .g-col-md-6}
+<div class="addgene-container">
+<!-- From Addgene website -->
+<div style="width: 280px; border: thin solid #888; padding: 10px; text-align: center;"><a href="https://www.addgene.org/Peter_van_Galen/" style="text-decoration: none; color: #585858; font-size: 16px; font-family: Arial,Helvetica,sans-serif;" target="_blank" rel="noopener noreferrer"><b>Peter van Galen Lab</b><br>Find and request materials through<br><img style="margin-top: 16px;" width="250" height="48" alt="Addgene" src="https://media.addgene.org/cms/filer_public/ea/82/ea826144-fce2-4c13-99e9-940af7e2853b/logo-addgene.png"></a></div>
+</div>
+:::
 
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 
 library(tidyverse)
 
@@ -230,7 +235,7 @@ knitr::kable(data)
 
 ### R for Statistical Computing
 
-![](images/resources/pivot_longer.jpg){style="width:300px; float:right; margin:0 25px 0 20px;"}
+![](images/resources/pivot_longer.jpg){.mobile-center style="width:300px; float:right;"}
 
 * R for Data Science ([book](https://r4ds.hadley.nz))
 * TidyTuesday ([videos](https://www.youtube.com/user/safe4democracy/videos))

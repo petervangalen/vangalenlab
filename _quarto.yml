@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Van Galen Lab"
-  description: "The Van Galen Lab at Brigham and Women's Hospital, Harvard Medical School, and the Broad Institute studies blood stem cells, aging, and leukemia"
+  description: "The Van Galen Lab at Brigham and Women's Hospital, Harvard Medical School, and the Broad Institute studies blood stem cells, aging, and leukemia."
   site-url: https://petervangalen.github.io/vangalenlab/
   favicon: "images/favicon.svg"
   navbar:

@@ -28,22 +28,22 @@ Data analyst leading projects in single-cell multiomics, aging, and cancer.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
-
-**Ksenia Safina, PhD**  
-*Postdoctoral Fellow*  
-Hematopoietic stem cell (HSC) aging and expansion, bioinformatics.  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:ksafina@bwh.harvard.edu) 
-<i class="fab fa-github"></i> [GitHub](https://github.com/noranekonobokkusu)
-:::
-
-::: {.g-col-12 .g-col-md-4}
 ![](images/people/Yoke_Seng_Lee.jpeg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Yoke Seng Lee, PhD**  
 *Postdoctoral Fellow*  
 New targeted therapies for acute myeloid leukemia (AML).  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:ylee62@bwh.harvard.edu)  
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](images/people/Ksenia_Safina.jpeg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+
+**Ksenia Safina, PhD**  
+*Postdoctoral Fellow*  
+Hematopoietic stem cell (HSC) aging and expansion, bioinformatics.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:ksafina@bwh.harvard.edu) 
+<i class="fab fa-github"></i> [GitHub](https://github.com/noranekonobokkusu)
 :::
 
 ::: {.g-col-12 .g-col-md-4}

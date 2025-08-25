@@ -185,6 +185,27 @@ h3.custom-position {
   }
 }
 
+.addgene-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -80px;
+}
+
+@media (max-width: 768px) {
+  .addgene-container {
+    justify-content: left;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-center {
+    float: none !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+}
+
 /* Footer ----------------------------------------------------------- */
 
 /* Target the footer content area */

@@ -11,6 +11,7 @@ Inspired by the band [Cake](https://www.cakemusic.com/forest-2019-20), Van Galen
 
 ```{r}
 #| echo: false
+#| message: false
 #| warning: false
 
 library(tidyverse)
@@ -43,7 +44,7 @@ alumni_data %>%
     color = "black",
     weight = 1,
     fillColor = "#18bc9c",
-    fillOpacity = 0.8,
+    fillOpacity = 0.5,
     popup = ~str_c(
         "<div style='text-align: left; width: 180px;'>",
         "<img src='", image_path, "' alt='", name, "' style='width: 150px; height: 150px; object-fit: cover;'>",
