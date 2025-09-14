@@ -7,7 +7,7 @@ project:
 website:
   title: "Van Galen Lab"
   description: "The Van Galen Lab at Brigham and Women's Hospital, Harvard Medical School, and the Broad Institute studies blood stem cells, aging, and leukemia."
-  site-url: https://petervangalen.github.io/vangalenlab/
+  site-url: https://vangalenlab.org/
   favicon: "images/favicon.svg"
   navbar:
     left:
@@ -28,8 +28,8 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    left: "© 2025 Van Galen Lab — All Rights Reserved — [Privacy Policy](https://www.massgeneralbrigham.org/en/notices/web-privacy-policy)"
-    right: 
+    left: "© 2025 Van Galen Lab • All Rights Reserved — [Privacy Policy](https://www.massgeneralbrigham.org/en/notices/web-privacy-policy) • Built with [Quarto](https://quarto.org/) • Shared on [GitHub](https://github.com/petervangalen/vangalenlab)"
+    right:
       - icon: github
         href: https://github.com/petervangalen/vangalenlab
         target: _blank

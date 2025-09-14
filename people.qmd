@@ -88,4 +88,4 @@ Protein translation initiation factors and lab management.
 
 <div style="margin-top: 1rem;"></div>
 
-For alumni, see [Forest](https://petervangalen.github.io/vangalenlab/forest.html).
+For alumni, see [Forest](https://vangalenlab.org/forest.html).

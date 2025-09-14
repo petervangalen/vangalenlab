@@ -4,3 +4,5 @@ _freeze/
 .quarto/
 .ala-labs
 /.quarto/
+
+**/*.quarto_ipynb

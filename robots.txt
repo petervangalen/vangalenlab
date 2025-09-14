@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://petervangalen.github.io/vangalenlab/sitemap.xml
+Sitemap: https://vangalenlab.org/sitemap.xml
