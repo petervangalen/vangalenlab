@@ -254,7 +254,7 @@ knitr::kable(data)
 ### Other sources
 
 * Bioinformatics Resources Compendium ([by Merle Riedemann](https://docs.google.com/document/d/1h4SFl4Ssjh6QNTxPYuAFHdqlkmFKrdI0OSom-_5S1F4/))
-* Harvard Chan Bioinformatics Core ([Workshops](Workshops))
+* Harvard Chan Bioinformatics Core ([Workshops](https://hsph.harvard.edu/research/bioinformatics/training/))
 * Ming Tang Genomics ([Github](https://github.com/crazyhottommy))
 * 10 Git Commands Every Developer Should Know ([article](https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/))
 

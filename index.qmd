@@ -85,7 +85,7 @@ At the Van Galen Lab, we’re not just advancing the frontier of blood and leuke
 ![Hevolution](images/supporters/Hevolution.png){.supporter-logo}
 ![Starr](images/supporters/Starr.png){.supporter-logo}
 ![Forbeck](images/supporters/Forbeck.png){.supporter-logo}
-![LLS](images/supporters/LLS.png){.supporter-logo}
+![BCUnited](images/supporters/BCUnited.png){.supporter-logo}
 ![Abbvie](images/supporters/AbbVie.svg){.supporter-logo}
 :::
 

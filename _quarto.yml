@@ -3,11 +3,12 @@ project:
   output-dir: docs
   resources:
     - robots.txt
+    - CNAME
 
 website:
   title: "Van Galen Lab"
   description: "The Van Galen Lab at Brigham and Women's Hospital, Harvard Medical School, and the Broad Institute studies blood stem cells, aging, and leukemia."
-  site-url: https://vangalenlab.org/
+  site-url: https://vangalenlab.org
   favicon: "images/favicon.svg"
   navbar:
     left:
@@ -48,6 +49,5 @@ format:
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-      - google-verification.html
 
 sitemap: true
