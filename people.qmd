@@ -62,7 +62,7 @@ HSC aging, leukemia prevention, and immunotherapeutic targeting.
 **Jingting Lin**  
 *Graduate Student*  
 Protein translation and stress signaling in AML.  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:yjlin69@bwh.harvard.edu)
+<i class="fa-regular fa-envelope"></i> [Email](mailto:jlin70@bwh.harvard.edu)
 <i class="fab fa-github"></i> [GitHub](https://github.com/jtl07)
 :::
 
