@@ -15,40 +15,46 @@ library(tidyverse)
 library(here)
 library(tools)
 library(reactable)
+library(lubridate)
 
 # CSV file is exported from Paperpile
 df <- here::here("paperpile_references.csv") %>%
   readr::read_csv()
 
-df <- df %>%
+df1 <- df %>%
   filter(
     `Item type` %in%
-      c("Journal Article", "Preprint Manuscript", "Review", "Commentary")
+      c("Journal article", "Preprint")
   ) %>%
   dplyr::select(
     Authors,
     `Publication year`,
+    `Date published`,
     Title,
-    `Full journal`,
+    `Journal (full title)`,
+    Source,
     DOI,
     `Labels filed in`
   ) %>%
   dplyr::rename(
     authors = Authors,
     year = `Publication year`,
+    date = `Date published`,
     title = Title,
-    journal = `Full journal`,
+    journal = `Journal (full title)`,
+    source = Source,
     star = `Labels filed in`
   ) %>%
   mutate(
     year = as.integer(year),
-    journal = tools::toTitleCase(journal),
+    date = coalesce(ymd(date, quiet = T), ym(date, quiet = T)),
+    journal = if_else(is.na(journal), source, tools::toTitleCase(journal)),
     star = case_when(
       star == "Highlight" ~ T,
       is.na(star) ~ F
     )
   ) %>%
-  arrange(desc(year))
+  arrange(desc(date))
 
 # Shorten author field
 simplify_authors <- function(x) {
@@ -67,22 +73,22 @@ simplify_authors <- function(x) {
   )
 }
 
-df$authors_simple <- simplify_authors(df$authors)
+df1$authors_simple <- simplify_authors(df1$authors)
 #df %>% select(authors, authors_simple) %>% View
 
 # Add link to title
-df$title_link <- paste0(
+df1$title_link <- paste0(
   "<a href='https://doi.org/",
-  df$DOI,
+  df1$DOI,
   "' target='_blank'>",
-  df$title,
+  df1$title,
   "</a>"
 )
 
 # Create table
 reactable::reactable(
-  dplyr::select(df, star, authors_simple, year, title_link, journal),
-  defaultSorted = list(year = "desc", star = "desc"),
+  dplyr::select(df1, star, authors_simple, year, date, title_link, journal),
+  defaultSorted = list(date = "desc", star = "desc"),
   columns = list(
     star = reactable::colDef(
       name = "★",
@@ -109,6 +115,7 @@ reactable::reactable(
       minWidth = 80,
       maxWidth = 130
     ),
+    date = reactable::colDef(show = FALSE),
     title_link = reactable::colDef(
       name = "Title",
       html = TRUE,

@@ -11,10 +11,12 @@ title-block-banner: "#2c3e50"
 **Peter van Galen, PhD**  
 *Principal Investigator*  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:pvangalen@bwh.harvard.edu)
-<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/vangalenlab.bsky.social)  
-<i class="fab fa-github"></i> [GitHub](https://github.com/petervangalen)
-<i class="fa-brands fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-0735-1570)  
-<i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=y3NC0VgAAAAJ)
+&nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/vangalenlab.bsky.social)  
+&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/petervangalen)
+&nbsp;<i class="fa-brands fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-0735-1570)  
+&nbsp;<i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=y3NC0VgAAAAJ)
+&nbsp;<i class="fas fa-dna"></i> [Addgene](https://www.addgene.org/Peter_van_Galen/)
+&nbsp;<i class="fas fa-database"></i> [Figshare](https://figshare.com/authors/Peter_van_Galen/20616098)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -24,7 +26,7 @@ title-block-banner: "#2c3e50"
 *Research Scientist*  
 Data analyst leading projects in single-cell multiomics, aging, and cancer.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:aparsons6@bwh.harvard.edu)
-<i class="fab fa-github"></i> [GitHub](https://github.com/adrienneparsons)
+&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/adrienneparsons)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -43,7 +45,7 @@ New targeted therapies for acute myeloid leukemia (AML).
 *Postdoctoral Fellow*  
 Hematopoietic stem cell (HSC) aging and expansion, bioinformatics.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:ksafina@bwh.harvard.edu) 
-<i class="fab fa-github"></i> [GitHub](https://github.com/noranekonobokkusu)
+&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/noranekonobokkusu)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -53,7 +55,7 @@ Hematopoietic stem cell (HSC) aging and expansion, bioinformatics.
 *Postdoctoral Fellow*  
 HSC aging, leukemia prevention, and immunotherapeutic targeting.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:bsalik@bwh.harvard.edu)
-<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/basitsalik.bsky.social)
+&nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/basitsalik.bsky.social)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -63,7 +65,7 @@ HSC aging, leukemia prevention, and immunotherapeutic targeting.
 *Graduate Student*  
 Protein translation and stress signaling in AML.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:jlin70@bwh.harvard.edu)
-<i class="fab fa-github"></i> [GitHub](https://github.com/jtl07)
+&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/jtl07)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -73,7 +75,7 @@ Protein translation and stress signaling in AML.
 *Research Technician*  
 Single-cell multiomics and lab management.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:jgood1@bwh.harvard.edu)
-<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/jdgood1.bsky.social)
+&nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/jdgood1.bsky.social)
 :::
 
 ::: {.g-col-12 .g-col-md-4}

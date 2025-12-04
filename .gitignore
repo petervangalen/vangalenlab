@@ -2,7 +2,5 @@ _site/
 _freeze/
 .DS_Store
 .quarto/
-.ala-labs
-/.quarto/
 
-**/*.quarto_ipynb
+/.quarto/

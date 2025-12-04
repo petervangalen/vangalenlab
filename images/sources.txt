@@ -50,6 +50,7 @@ Ludwig.svg: "OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/210212 Ludw
 MPNRF.png: "OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/241020 MPNRF.png"
 NCI.png: "OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/170703 NCI logo.ai"
 Starr.png: "OneDrive-MassGeneralBrigham/Presentations/Figures/Logos/240226 SCC.ai"
+Waxman.svg: "https://themarkfoundation.org/waxmaninstitute/"
 
 
 
