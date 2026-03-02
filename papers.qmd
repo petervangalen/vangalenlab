@@ -48,9 +48,9 @@ df1 <- df %>%
   mutate(
     year = as.integer(year),
     date = coalesce(ymd(date, quiet = T), ym(date, quiet = T)),
-    journal = if_else(is.na(journal), source, tools::toTitleCase(journal)),
+    journal = if_else(is.na(journal), source, journal),
     star = case_when(
-      star == "Highlight" ~ T,
+      str_detect(star, "Highlight") ~ T,
       is.na(star) ~ F
     )
   ) %>%
@@ -95,7 +95,7 @@ reactable::reactable(
       width = 50,
       align = "center",
       cell = function(value) {
-        if (value) {
+        if (isTRUE(value)) {
           "★"
         } else {
           "☆"

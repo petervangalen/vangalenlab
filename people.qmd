@@ -86,6 +86,15 @@ Single-cell multiomics and lab management.
 Protein translation initiation factors and lab management.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:htolson@mgb.org)  
 :::
+
+::: {.g-col-12 .g-col-md-4}
+![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+
+**Hanna Frieß**  
+*Exchange Student*  
+How HSC interactions change with age.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:hfriess@bwh.harvard.edu)  
+:::
 :::
 
 <div style="margin-top: 1rem;"></div>

@@ -1,0 +1,16 @@
+---
+title: "Ice skating"
+date: "2026-02-13"
+image: "../images/posts/260213_Ice_skating.jpeg"
+description: "Boston Common Frog Pond ⛸️"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Jonathan, Ksenia, Jessica, Yoke, Hailey, Hanna, and Jingting](../images/posts/260213_Ice_skating.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Nobody Move, Nobody Get Hurt

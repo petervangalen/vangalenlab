@@ -76,8 +76,9 @@ At the Van Galen Lab, we’re not just advancing the frontier of blood and leuke
 
 ::: {style="text-align: center;"}
 ![Ludwig](images/supporters/Ludwig.svg){.supporter-logo}
-![ACS](images/supporters/ACS.svg){.supporter-logo}
 ![NCI](images/supporters/NCI.png){.supporter-logo}
+![NHLBI](images/supporters/NHLBI.svg){.supporter-logo}
+![ACS](images/supporters/ACS.svg){.supporter-logo}
 ![AFAR](images/supporters/AFAR.png){.supporter-logo}
 ![EvansMDS](images/supporters/EvansMDS.png){.supporter-logo}
 ![Dresner](images/supporters/Dresner.png){.supporter-logo}
@@ -87,6 +88,8 @@ At the Van Galen Lab, we’re not just advancing the frontier of blood and leuke
 ![Forbeck](images/supporters/Forbeck.png){.supporter-logo}
 ![BCUnited](images/supporters/BCUnited.png){.supporter-logo}
 ![Abbvie](images/supporters/AbbVie.svg){.supporter-logo}
+![ASH](images/supporters/ASH.svg){.supporter-logo}
+![Waxman](images/supporters/Waxman.svg){.supporter-logo}
 :::
 
 ::: {.organizations-bar}
