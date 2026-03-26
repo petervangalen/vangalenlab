@@ -6,7 +6,44 @@ toc-title: "On this page"
 title-block-banner: "#2c3e50"
 ---
 
-# Data and Analysis
+# Data and Analyses
+
+---
+
+### TARGETING TRANSLATION {.custom-position}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .text-center}
+![](images/resources/Schematic_square.png){style="width:300px; display:block; margin:5px auto -20px auto;"}
+:::
+::: {.g-col-12 .g-col-md-6}
+**2026** | Using the eIF4A inhibitor zotatifin with the BCL2 inhibitor venetoclax to target AML cells.
+
+* <i class="fa-regular fa-file-lines"></i> [Paper](https://doi.org/10.1016/j.bneo.2026.100202): Lee YS *et al.* Synergistic targeting of eIF4A-mediated translation initiation and apoptosis in acute myeloid leukemia. Blood Neoplasia, 2026
+* <i class="fab fa-github"></i> [reanalyze-aml2019](https://github.com/petervangalen/reanalyze-aml2019/): Expression of translation initiation factors including *EIF4A1* in healthy bone marrow and AML cell subpopulations (folder: 2026_Lee).
+* <i class="fab fa-github"></i> [AML-DepMap-Insights-2024](https://github.com/petervangalen/AML-DepMap-Insights-2024): From DepMap and PRISM, evaluate *EIF4A* expression and zotatifin sensitivity in AML cell lines (folder: 2026_Lee).
+* <i class="fab fa-github"></i> [DrugSynergy_2026](https://github.com/petervangalen/DrugSynergy_2026): RNA- and ribosome-sequencing analysis as described in the paper.
+* <i class="fa-solid fa-dna"></i> [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317371): RNA- and ribosome-sequencing data.
+:::
+:::
+
+---
+
+### HUMAN HSC AGING {.custom-position}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .text-center}
+![](images/resources/iHSCs.png){style="width:300px; display:block; margin:5px auto -20px auto;"}
+:::
+::: {.g-col-12 .g-col-md-6}
+**2026** | Using consensus non-negative matrix factorization to discover programs driving HSC aging.
+
+* <i class="fa-regular fa-file-lines"></i> [Paper](https://doi.org/10.1186/s13059-026-03936-z): Safina KR *et al.* An inflammatory and quiescent HSC
+subpopulation expands with age in humans. Genome Biology, 2026
+* <i class="fab fa-github"></i> [Aging_HSCs_2025](https://github.com/noranekonobokkusu/Aging_HSCs_2025): Scripts to reproduce analyses including differential gene expression, cNMF, and GSEA.
+* <i class="fa-solid fa-dna"></i> [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302126): Single-cell RNA-seq data (additional datasets are described in paper's data availability section).
+:::
+:::
 
 ---
 
@@ -22,20 +59,8 @@ title-block-banner: "#2c3e50"
 * <i class="fa-regular fa-file-lines"></i> [Paper](https://www.nature.com/articles/s41586-023-06156-8): Griffin GK *et al.* Ultraviolet radiation shapes dendritic cell leukaemia transformation in the skin. Nature, 2023
 * <i class="fab fa-github"></i> [Single-cell_BPDCN](https://github.com/petervangalen/Single-cell_BPDCN): R scripts to analyze the single-cell gene expression and genotyping data.
 * <i class="fa-solid fa-dna"></i> [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227690): Raw and processed sequencing data.
+* <i class="fa-solid fa-dna"></i> [Figshare](https://figshare.com/projects/Single-cell_BPDCN/272326): Seurat objects with single-cell sequencing data.
 :::
-<!-- Additionally, the following links were on the previous Van Galen Lab website. These Seurat files contain gene expression matrices and metadata, including cell annotations and genotyping calls. They can be read into R with readRDS(). The data were generated using 10x 3' v3.1, 10x 3' v3, and Seq-Well S^3 protocols, as indicated in Supplemental Table 3a of the paper. The healthy control object contains 20,411 high-quality cells from six donors. These links are now broken:
-* [BM_Seurat_Final.rds](https://www.dropbox.com/s/kjj681rztlw6l5d/BM_Seurat_Final.rds?dl=0): Six healthy controls  
-* [Pt1Dx_Seurat_Final.rds](https://www.dropbox.com/s/6urouygij9t2onz/Pt1Dx_Seurat_Final.rds?dl=0): Pt1Dx  
-* [Pt1Rem_Seurat_Final.rds](https://www.dropbox.com/s/5vyay5ny2cnv1yv/Pt1Rem_Seurat_Final.rds?dl=0): Pt1Rem  
-* [Pt5Dx_Seurat_Final.rds](https://www.dropbox.com/s/4fipdxhr2xx9ycv/Pt5Dx_Seurat_Final.rds?dl=0): Pt5Dx  
-* [Pt9Dx_Seurat_Final.rds](https://www.dropbox.com/s/v5t9q7gmbj3oq63/Pt9Dx_Seurat_Final.rds?dl=0): Pt9Dx  
-* [Pt10Dx_Seurat_Final.rds](https://www.dropbox.com/s/9by5ngpkfhxlfqt/Pt10Dx_Seurat_Final.rds?dl=0): Pt10Dx  
-* [Pt10Rel_Seurat_Final.rds](https://www.dropbox.com/s/2vz0mc34sl0hoke/Pt10Rel_Seurat_Final.rds?dl=0): Pt10Rel  
-* [Pt12Dx_Seurat_Final.rds](https://www.dropbox.com/s/motnr4gaylicl7w/Pt12Dx_Seurat_Final.rds?dl=0): Pt12Dx  
-* [Pt12Rel_Seurat_Final.rds](https://www.dropbox.com/s/4x24kdyqxregmq1/Pt12Rel_Seurat_Final.rds?dl=0): Pt12Rel  
-* [Pt14Dx_Seurat_Final.rds](https://www.dropbox.com/s/df7kirxjyvbvedm/Pt14Dx_Seurat_Final.rds?dl=0): Pt14Dx  
-* [Pt15Dx_Seurat_Final.rds](https://www.dropbox.com/s/xif3dxnb84m9mrk/Pt15Dx_Seurat_Final.rds?dl=0): Pt15Dx  
-* [Pt16Dx_Seurat_Final.rds](https://www.dropbox.com/s/bwsqdbrt386cgrp/Pt16Dx_Seurat_Final.rds?dl=0): Pt16Dx -->
 :::
 
 ---
@@ -139,9 +164,8 @@ title-block-banner: "#2c3e50"
 * <i class="fab fa-github"></i> [aml2019](https://github.com/BernsteinLab/aml2019): Original code largely written by Volker Hovestadt.
 * <i class="fab fa-github"></i> [reanalyze-AML2019](https://github.com/petervangalen/reanalyze-aml2019): Scripts that facilitate the visualization of genes of interest in barplots, violin/sina plots, and heatmaps.
 * <i class="fa-solid fa-dna"></i> [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256): Raw and processed single-cell RNA and TCR-seq sequencing data.
+* <i class="fa-solid fa-dna"></i> [Figshare](https://doi.org/10.6084/m9.figshare.30581066): Seurat object with single-cell sequencing data.
 :::
-<!-- Additionally, the following data file was available on the previous Van Galen Lab website with the description: "The following Seurat file is here to facilitate the use of single-cell RNA-seq from diagnosis (day 0) AML samples and healthy controls. The data was generated using Seq-Well. The Seurat object contains 22,600 cells from 22 samples with metadata columns including cell type. Follow-up samples are not included in this file: to access the full dataset, use the GEO link above." The link is now dead (and the datat can be accessed on the second Github repository):
-* [Seurat object with single-cel AML data](https://www.dropbox.com/s/399x045zc57fiut/Seurat_AML.rds?dl=0) -->
 :::
 
 ---
@@ -180,37 +204,37 @@ library(tidyverse)
 
 # Create sample data
 data <- tribble(
-  ~Plasmid,
-  ~`Gene/Insert`,
-  ~`Description`,
-  ~Reference,
-  "pSMALB-ATF4.5",
-  "ATF4 5' UTR, ATF4-eGFP fusion ORF, TagBFP",
-  "ATF4 reporter",
-  "van Galen P, Kreso A, Mbong N, *et al.* The unfolded protein response governs integrity of the haematopoietic stem-cell pool during stress. [Nature,](https://doi.org/10.1038/nature13228) 2014.",
-  "pSMALB-ATF4.12",
-  "ATF4 5' UTR, ATF4-eGFP fusion ORF, TagBFP",
-  "ATF4 reporter (negative control)",
-  "van Galen P, Kreso A, Mbong N, *et al.* The unfolded protein response governs integrity of the haematopoietic stem-cell pool during stress. [Nature,](https://doi.org/10.1038/nature13228) 2014.",
-  "pSMALB-ATF4.14",
-  "ATF4 5' UTR, ATF4-eGFP fusion ORF, TagBFP",
-  "ATF4 reporter (positive control)",
-  "van Galen P, Kreso A, Mbong N, *et al.* The unfolded protein response governs integrity of the haematopoietic stem-cell pool during stress. [Nature,](https://doi.org/10.1038/nature13228) 2014.",
-  "pMAL",
-  "Gateway cloning element",
-  "Bidirectional expression vector (pPGK promoter, GFP)",
-  "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014.",
-  "pMALB",
-  "Gateway cloning element",
-  "Bidirectional expression vector (hPGK promoter, TagBFP)",
-  "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014.",
-  "pSMAL",
-  "Gateway cloning element",
-  "Bidirectional expression vector (SFFV promoter, GFP)",
-  "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014.",
-  "pSMALB",
-  "Gateway cloning element",
-  "Bidirectional expression vector (SFFV promoter, TagBFP)",
+  ~Plasmid                                                                                                                                                                                             ,
+  ~`Gene/Insert`                                                                                                                                                                                       ,
+  ~`Description`                                                                                                                                                                                       ,
+  ~Reference                                                                                                                                                                                           ,
+  "pSMALB-ATF4.5"                                                                                                                                                                                      ,
+  "ATF4 5' UTR, ATF4-eGFP fusion ORF, TagBFP"                                                                                                                                                          ,
+  "ATF4 reporter"                                                                                                                                                                                      ,
+  "van Galen P, Kreso A, Mbong N, *et al.* The unfolded protein response governs integrity of the haematopoietic stem-cell pool during stress. [Nature,](https://doi.org/10.1038/nature13228) 2014."   ,
+  "pSMALB-ATF4.12"                                                                                                                                                                                     ,
+  "ATF4 5' UTR, ATF4-eGFP fusion ORF, TagBFP"                                                                                                                                                          ,
+  "ATF4 reporter (negative control)"                                                                                                                                                                   ,
+  "van Galen P, Kreso A, Mbong N, *et al.* The unfolded protein response governs integrity of the haematopoietic stem-cell pool during stress. [Nature,](https://doi.org/10.1038/nature13228) 2014."   ,
+  "pSMALB-ATF4.14"                                                                                                                                                                                     ,
+  "ATF4 5' UTR, ATF4-eGFP fusion ORF, TagBFP"                                                                                                                                                          ,
+  "ATF4 reporter (positive control)"                                                                                                                                                                   ,
+  "van Galen P, Kreso A, Mbong N, *et al.* The unfolded protein response governs integrity of the haematopoietic stem-cell pool during stress. [Nature,](https://doi.org/10.1038/nature13228) 2014."   ,
+  "pMAL"                                                                                                                                                                                               ,
+  "Gateway cloning element"                                                                                                                                                                            ,
+  "Bidirectional expression vector (pPGK promoter, GFP)"                                                                                                                                               ,
+  "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014." ,
+  "pMALB"                                                                                                                                                                                              ,
+  "Gateway cloning element"                                                                                                                                                                            ,
+  "Bidirectional expression vector (hPGK promoter, TagBFP)"                                                                                                                                            ,
+  "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014." ,
+  "pSMAL"                                                                                                                                                                                              ,
+  "Gateway cloning element"                                                                                                                                                                            ,
+  "Bidirectional expression vector (SFFV promoter, GFP)"                                                                                                                                               ,
+  "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014." ,
+  "pSMALB"                                                                                                                                                                                             ,
+  "Gateway cloning element"                                                                                                                                                                            ,
+  "Bidirectional expression vector (SFFV promoter, TagBFP)"                                                                                                                                            ,
   "van Galen P, Kreso A, Wienholds E, *et al.* Reduced lymphoid lineage priming promotes human hematopoietic stem cell expansion. [Cell Stem Cell,](https://doi.org/10.1016/j.stem.2013.11.021) 2014."
 )
 
@@ -221,13 +245,13 @@ knitr::kable(data)
 
 # For Trainees
 
-* [Brigham and Women's Postdoctoral Association](https://www.discoverbrigham.org/pda/) for postdocs
+<!-- * [Brigham and Women's Postdoctoral Association](https://www.discoverbrigham.org/pda/) for postdocs -->
 * [Harvard's Bioinformatics and Integrative Genomics PhD Program](https://bmiphd.hms.harvard.edu/big-track/welcome-big) for PhD students
 * [Harvard's Biological and Biomedical Sciences (BBS) Program](https://bbsphd.hms.harvard.edu) for PhD students
 * [Harvard's Biomedical Informatics Program](https://dbmi.hms.harvard.edu/education/masters-program) for MSc students
-* [Dana-Farber/Harvard Cancer Center's Continuing Umbrella of Research Experiences (CURE) Program](https://www.dfhcc.harvard.edu/research/cancer-disparities/students/cure-overview) for student internships
+* [Harvard Cancer Consortium's Continuing Umbrella of Research Experiences (CURE) Program](https://www.dfhcc.harvard.edu/research/cancer-disparities/students/cure-overview) for student internships
 * [Brigham and Women's Student Success Jobs Program](https://www.brighamandwomens.org/about-bwh/community-health-equity/student-success-jobs-program/student-success-jobs-program) for student internships
-
+* [Massachusetts Institute of Technology (MIT) Research Science Institute (RSI)](https://www.cee.org/programs/research-science-institute) for high school students
 
 ---
 

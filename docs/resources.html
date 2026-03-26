@@ -164,8 +164,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-and-analysis" id="toc-data-and-analysis" class="nav-link active" data-scroll-target="#data-and-analysis">Data and Analysis</a>
+  <li><a href="#data-and-analyses" id="toc-data-and-analyses" class="nav-link active" data-scroll-target="#data-and-analyses">Data and Analyses</a>
   <ul class="collapse">
+  <li><a href="#targeting-translation" id="toc-targeting-translation" class="nav-link" data-scroll-target="#targeting-translation">TARGETING TRANSLATION</a></li>
+  <li><a href="#human-hsc-aging" id="toc-human-hsc-aging" class="nav-link" data-scroll-target="#human-hsc-aging">HUMAN HSC AGING</a></li>
   <li><a href="#bpdcn-evolution" id="toc-bpdcn-evolution" class="nav-link" data-scroll-target="#bpdcn-evolution">BPDCN EVOLUTION</a></li>
   <li><a href="#maester" id="toc-maester" class="nav-link" data-scroll-target="#maester">MAESTER</a></li>
   <li><a href="#wat3r" id="toc-wat3r" class="nav-link" data-scroll-target="#wat3r">WAT3R</a></li>
@@ -197,9 +199,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="data-and-analysis" class="level1">
-<h1>Data and Analysis</h1>
+<section id="data-and-analyses" class="level1">
+<h1>Data and Analyses</h1>
 <hr>
+<section id="targeting-translation" class="level3 custom-position">
+<h3 class="custom-position anchored" data-anchor-id="targeting-translation">TARGETING TRANSLATION</h3>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/Schematic_square.png" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
+</div>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2026</strong> | Using the eIF4A inhibitor zotatifin with the BCL2 inhibitor venetoclax to target AML cells.</p>
+<ul>
+<li><i class="fa-regular fa-file-lines"></i> <a href="https://doi.org/10.1016/j.bneo.2026.100202">Paper</a>: Lee YS <em>et al.</em> Synergistic targeting of eIF4A-mediated translation initiation and apoptosis in acute myeloid leukemia. Blood Neoplasia, 2026</li>
+<li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/reanalyze-aml2019/">reanalyze-aml2019</a>: Expression of translation initiation factors including <em>EIF4A1</em> in healthy bone marrow and AML cell subpopulations (folder: 2026_Lee).</li>
+<li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/AML-DepMap-Insights-2024">AML-DepMap-Insights-2024</a>: From DepMap and PRISM, evaluate <em>EIF4A</em> expression and zotatifin sensitivity in AML cell lines (folder: 2026_Lee).</li>
+<li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/DrugSynergy_2026">DrugSynergy_2026</a>: RNA- and ribosome-sequencing analysis as described in the paper.</li>
+<li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317371">GEO</a>: RNA- and ribosome-sequencing data.</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="human-hsc-aging" class="level3 custom-position">
+<h3 class="custom-position anchored" data-anchor-id="human-hsc-aging">HUMAN HSC AGING</h3>
+<div class="grid">
+<div class="g-col-12 g-col-md-6 text-center">
+<p><img src="images/resources/iHSCs.png" class="img-fluid" style="width:300px; display:block; margin:5px auto -20px auto;"></p>
+</div>
+<div class="g-col-12 g-col-md-6">
+<p><strong>2026</strong> | Using consensus non-negative matrix factorization to discover programs driving HSC aging.</p>
+<ul>
+<li><i class="fa-regular fa-file-lines"></i> <a href="https://doi.org/10.1186/s13059-026-03936-z">Paper</a>: Safina KR <em>et al.</em> An inflammatory and quiescent HSC subpopulation expands with age in humans. Genome Biology, 2026</li>
+<li><i class="fab fa-github"></i> <a href="https://github.com/noranekonobokkusu/Aging_HSCs_2025">Aging_HSCs_2025</a>: Scripts to reproduce analyses including differential gene expression, cNMF, and GSEA.</li>
+<li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302126">GEO</a>: Single-cell RNA-seq data (additional datasets are described in paper’s data availability section).</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
 <section id="bpdcn-evolution" class="level3 custom-position">
 <h3 class="custom-position anchored" data-anchor-id="bpdcn-evolution">BPDCN EVOLUTION</h3>
 <div class="grid">
@@ -212,21 +250,9 @@ ul.task-list li input[type="checkbox"] {
 <li><i class="fa-regular fa-file-lines"></i> <a href="https://www.nature.com/articles/s41586-023-06156-8">Paper</a>: Griffin GK <em>et al.</em> Ultraviolet radiation shapes dendritic cell leukaemia transformation in the skin. Nature, 2023</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/Single-cell_BPDCN">Single-cell_BPDCN</a>: R scripts to analyze the single-cell gene expression and genotyping data.</li>
 <li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227690">GEO</a>: Raw and processed sequencing data.</li>
+<li><i class="fa-solid fa-dna"></i> <a href="https://figshare.com/projects/Single-cell_BPDCN/272326">Figshare</a>: Seurat objects with single-cell sequencing data.</li>
 </ul>
 </div>
-<!-- Additionally, the following links were on the previous Van Galen Lab website. These Seurat files contain gene expression matrices and metadata, including cell annotations and genotyping calls. They can be read into R with readRDS(). The data were generated using 10x 3' v3.1, 10x 3' v3, and Seq-Well S^3 protocols, as indicated in Supplemental Table 3a of the paper. The healthy control object contains 20,411 high-quality cells from six donors. These links are now broken:
-* [BM_Seurat_Final.rds](https://www.dropbox.com/s/kjj681rztlw6l5d/BM_Seurat_Final.rds?dl=0): Six healthy controls  
-* [Pt1Dx_Seurat_Final.rds](https://www.dropbox.com/s/6urouygij9t2onz/Pt1Dx_Seurat_Final.rds?dl=0): Pt1Dx  
-* [Pt1Rem_Seurat_Final.rds](https://www.dropbox.com/s/5vyay5ny2cnv1yv/Pt1Rem_Seurat_Final.rds?dl=0): Pt1Rem  
-* [Pt5Dx_Seurat_Final.rds](https://www.dropbox.com/s/4fipdxhr2xx9ycv/Pt5Dx_Seurat_Final.rds?dl=0): Pt5Dx  
-* [Pt9Dx_Seurat_Final.rds](https://www.dropbox.com/s/v5t9q7gmbj3oq63/Pt9Dx_Seurat_Final.rds?dl=0): Pt9Dx  
-* [Pt10Dx_Seurat_Final.rds](https://www.dropbox.com/s/9by5ngpkfhxlfqt/Pt10Dx_Seurat_Final.rds?dl=0): Pt10Dx  
-* [Pt10Rel_Seurat_Final.rds](https://www.dropbox.com/s/2vz0mc34sl0hoke/Pt10Rel_Seurat_Final.rds?dl=0): Pt10Rel  
-* [Pt12Dx_Seurat_Final.rds](https://www.dropbox.com/s/motnr4gaylicl7w/Pt12Dx_Seurat_Final.rds?dl=0): Pt12Dx  
-* [Pt12Rel_Seurat_Final.rds](https://www.dropbox.com/s/4x24kdyqxregmq1/Pt12Rel_Seurat_Final.rds?dl=0): Pt12Rel  
-* [Pt14Dx_Seurat_Final.rds](https://www.dropbox.com/s/df7kirxjyvbvedm/Pt14Dx_Seurat_Final.rds?dl=0): Pt14Dx  
-* [Pt15Dx_Seurat_Final.rds](https://www.dropbox.com/s/xif3dxnb84m9mrk/Pt15Dx_Seurat_Final.rds?dl=0): Pt15Dx  
-* [Pt16Dx_Seurat_Final.rds](https://www.dropbox.com/s/bwsqdbrt386cgrp/Pt16Dx_Seurat_Final.rds?dl=0): Pt16Dx -->
 </div>
 <hr>
 </section>
@@ -329,10 +355,9 @@ ul.task-list li input[type="checkbox"] {
 <li><i class="fab fa-github"></i> <a href="https://github.com/BernsteinLab/aml2019">aml2019</a>: Original code largely written by Volker Hovestadt.</li>
 <li><i class="fab fa-github"></i> <a href="https://github.com/petervangalen/reanalyze-aml2019">reanalyze-AML2019</a>: Scripts that facilitate the visualization of genes of interest in barplots, violin/sina plots, and heatmaps.</li>
 <li><i class="fa-solid fa-dna"></i> <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256">GEO</a>: Raw and processed single-cell RNA and TCR-seq sequencing data.</li>
+<li><i class="fa-solid fa-dna"></i> <a href="https://doi.org/10.6084/m9.figshare.30581066">Figshare</a>: Seurat object with single-cell sequencing data.</li>
 </ul>
 </div>
-<!-- Additionally, the following data file was available on the previous Van Galen Lab website with the description: "The following Seurat file is here to facilitate the use of single-cell RNA-seq from diagnosis (day 0) AML samples and healthy controls. The data was generated using Seq-Well. The Seurat object contains 22,600 cells from 22 samples with metadata columns including cell type. Follow-up samples are not included in this file: to access the full dataset, use the GEO link above." The link is now dead (and the datat can be accessed on the second Github repository):
-* [Seurat object with single-cel AML data](https://www.dropbox.com/s/399x045zc57fiut/Seurat_AML.rds?dl=0) -->
 </div>
 <hr>
 </section>
@@ -424,13 +449,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="for-trainees" class="level1">
 <h1>For Trainees</h1>
+<!-- * [Brigham and Women's Postdoctoral Association](https://www.discoverbrigham.org/pda/) for postdocs -->
 <ul>
-<li><a href="https://www.discoverbrigham.org/pda/">Brigham and Women’s Postdoctoral Association</a> for postdocs</li>
 <li><a href="https://bmiphd.hms.harvard.edu/big-track/welcome-big">Harvard’s Bioinformatics and Integrative Genomics PhD Program</a> for PhD students</li>
 <li><a href="https://bbsphd.hms.harvard.edu">Harvard’s Biological and Biomedical Sciences (BBS) Program</a> for PhD students</li>
 <li><a href="https://dbmi.hms.harvard.edu/education/masters-program">Harvard’s Biomedical Informatics Program</a> for MSc students</li>
-<li><a href="https://www.dfhcc.harvard.edu/research/cancer-disparities/students/cure-overview">Dana-Farber/Harvard Cancer Center’s Continuing Umbrella of Research Experiences (CURE) Program</a> for student internships</li>
+<li><a href="https://www.dfhcc.harvard.edu/research/cancer-disparities/students/cure-overview">Harvard Cancer Consortium’s Continuing Umbrella of Research Experiences (CURE) Program</a> for student internships</li>
 <li><a href="https://www.brighamandwomens.org/about-bwh/community-health-equity/student-success-jobs-program/student-success-jobs-program">Brigham and Women’s Student Success Jobs Program</a> for student internships</li>
+<li><a href="https://www.cee.org/programs/research-science-institute">Massachusetts Institute of Technology (MIT) Research Science Institute (RSI)</a> for high school students</li>
 </ul>
 <hr>
 </section>

@@ -30,9 +30,11 @@ All from Dropbox vangalenlab/Pictures
 #### RESOURCES ####
 BPDCN-T-cells.png: "OneDrive-MassGeneralBrighamIncorporated/Archive/Website_WP/Images - resources/T cells in BPDCN image.png"
 BPDCN-UV.png: "OneDrive-MassGeneralBrighamIncorporated/Admin/Website_Quarto-main/images/resources/UV_BPDCN.png"
+iHSCs.png: "OneDrive-MassGeneralBrighamIncorporated/Projects/Aging_HSCs/Skytorial/1-vertical.pdf"
 MAESTER.png: "OneDrive-MassGeneralBrighamIncorporated/Archive/Website_WP/Images - resources/MAESTER.ai"
 MintChIP.png: "OneDrive-MassGeneralBrighamIncorporated/Archive/Website_WP/Images - resources/Mint-ChIP.png"
 pivot_longer.jpg: "OneDrive-MassGeneralBrighamIncorporated/Archive/Website_WP/Images - resources/pivot_longer.JPG"
+Schematic_square.png: "https://app.biorender.com/illustrations/69a748b5bc99c748dfb6ba6a"
 Single-cell_AML.jpg: "OneDrive-MassGeneralBrighamIncorporated/Archive/Website_WP/Images - resources/Single-cell_AML.jpg"
 vector-pMAL.jpeg: "OneDrive-MassGeneralBrighamIncorporated/Archive/Website_WP/Images - resources/pMAL.jpeg"
 WAT3R-logo.png: https://github.com/mainciburu/WAT3R/blob/main/logo/WAT3Rlogo.png

@@ -20,16 +20,6 @@ title-block-banner: "#2c3e50"
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/people/Adrienne_Parsons.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
-
-**Adrienne Parsons, PhD**  
-*Research Scientist*  
-Data analyst leading projects in single-cell multiomics, aging, and cancer.  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:aparsons6@bwh.harvard.edu)
-&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/adrienneparsons)
-:::
-
-::: {.g-col-12 .g-col-md-4}
 ![](images/people/Yoke_Seng_Lee.jpeg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Yoke Seng Lee, PhD**  
@@ -88,7 +78,7 @@ Protein translation initiation factors and lab management.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+![](images/people/Hanna_Friess.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Hanna Frieß**  
 *Exchange Student*  
