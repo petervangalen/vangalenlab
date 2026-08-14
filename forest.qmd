@@ -2,7 +2,7 @@
 title: "Forest"
 subtitle: "Alumni of the Van Galen Lab"
 title-block-banner: "#2c3e50"
-freeze: true
+freeze: auto
 resources:
   - "images/"
 ---
@@ -31,7 +31,8 @@ alumni_data <- tribble(
   "Sarah Bibeau"     , "Sarah started her graduate program at Boston College in 2023."                                   , 42.33569142415681 ,  -71.16841244281315   , "images/people/Sarah_Bibeau.jpg"      ,
   "Nurefsan Saripek" , "Nurefsan started her residency at Yale School of Medicine in 2025."                              , 41.30340404108865 ,  -72.93388313754483   , "images/people/Nurefsan_Sariipek.jpg" ,
   "Noha Awais"       , "Noha started as a medical student at Harvard Medical School in 2025."                            , 42.33571930804914 ,  -71.10421707057944   , "images/people/Noha_Awais.jpg"        ,
-  "Adrienne Parsons" , "Adrienne continued her career at AI healthcare startup Aitia in 2026."                           , 42.36117930162384 ,  -71.10116213309855   , "images/people/Adrienne_Parsons.jpg"
+  "Adrienne Parsons" , "Adrienne continued her career at AI healthcare startup Aitia in 2026."                           , 42.36117930162384 ,  -71.10116213309855   , "images/people/Adrienne_Parsons.jpg"  ,
+  "Jonathan Good"    , "Jonathan started his PhD at the University of Toronto in 2026."                                  , 43.66364219726007 ,  -79.39583803202832   , "images/people/Jonathan_Good.jpg"
 )
 
 # Create the map
@@ -79,6 +80,7 @@ alumni_data %>%
 
 | Name | Years | Role | Current Position |
 |------|-------|------|------------------|
+| Jonathan Good | 2021-2026 | Research technician | PhD Program, University of Toronto |
 | Adrienne Parsons | 2021-2026 | Research scientist | Scientist 2, Aita |
 | Noha Awais | 2022-2025 | Research technician | Medical Student, Harvard Medical School |
 | Sarah Bibeau | 2022-2023 | Research technician | PhD Program, Boston College |

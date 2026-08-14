@@ -1,0 +1,16 @@
+---
+title: "Jonathan's farewell party"
+date: "2026-08-01"
+image: "../images/posts/260801_Jonathan_farewell.jpeg"
+description: "Thank you Jonathan"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Yoke, Tata, Ksenia, Jonathan, Sheryl, Peter, Maritella, Hailey, Franklin, Jingting, Shreya, Hanna, Basit](../images/posts/260801_Jonathan_farewell.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+We thank Jonathan for his contributions to the lab and wish him all the best at the University of Toronto!

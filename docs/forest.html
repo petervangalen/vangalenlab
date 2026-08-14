@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Forest – Van Galen Lab</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,15 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9d96f532d65220ca877c0304385df42f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
         background: #2c3e50;
       }
 </style>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
@@ -84,9 +89,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
-<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
-<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-3.0.0/leaflet-providers.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
 <link href="site_libs/leaflet-easybutton-1.3.1/easy-button.css" rel="stylesheet">
 <script src="site_libs/leaflet-easybutton-1.3.1/easy-button.js"></script>
 <script src="site_libs/leaflet-easybutton-1.3.1/EasyButton-binding.js"></script>
@@ -186,8 +191,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Inspired by the band <a href="https://www.cakemusic.com/forest-2019-20">Cake</a>, Van Galen Lab alumni will get a plant and be placed on a map according to their next adventure.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-641874593cad04c5c739" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-641874593cad04c5c739">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Voyager",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[42.80160198534935,42.36516686902243,42.33638598770364,39.92538859206633,39.14057493497279,40.85069895841855,47.8015492611432,42.33569142415681,41.30340404108865,42.33571930804914,42.36117930162384],[-1.659210888903942,-71.07953954532121,-71.10670861471547,32.78472660149568,-84.5008852422916,-73.84593438929224,-122.1935323153424,-71.16841244281315,-72.93388313754483,-71.10421707057944,-71.10116213309855],6,null,null,{"interactive":true,"className":"","stroke":true,"color":"black","weight":1,"opacity":0.5,"fill":true,"fillColor":"#18bc9c","fillOpacity":0.5},null,null,["<div style='text-align: left; width: 180px;'><img src='images/people/Marina_Ainciburu.jpg' alt='Marina Ainciburu' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Marina Ainciburu<\/h4><p style='margin: 5px 0;'>Marina went back to finish her graduate work at the University of Navarra in 2021.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Jean_Acosta.png' alt='Jean Acosta' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Jean Acosta<\/h4><p style='margin: 5px 0;'>Jean went to work at bluebird bio in 2021.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Jenny_Noel.jpg' alt='Jenny Noel' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Jenny Noel<\/h4><p style='margin: 5px 0;'>Jenny went to pursue her Nursing degree at MGH and BWH in 2022.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Feyza_Canan.jpeg' alt='Feyza Canan' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Feyza Canan<\/h4><p style='margin: 5px 0;'>Feyza returned to Medical School in Ankara after her 2022 summer internship.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Erica_DePasquale.jpg' alt='Erica DePasquale' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Erica DePasquale<\/h4><p style='margin: 5px 0;'>Erica left the lab in 2022 and is now an Assistant Professor at Cincinnati Children's Hospital.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Daniel_Ssozi.jpeg' alt='Daniel Ssozi' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Daniel Ssozi<\/h4><p style='margin: 5px 0;'>Daniel started the Albert Einstein MD/PhD program in 2023.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Kyle_Romine.jpg' alt='Kyle Romine' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Kyle Romine<\/h4><p style='margin: 5px 0;'>Kyle went to head a team investigating antibody-drug conjugates at Seagen in 2023.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Sarah_Bibeau.jpg' alt='Sarah Bibeau' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Sarah Bibeau<\/h4><p style='margin: 5px 0;'>Sarah started her graduate program at Boston College in 2023.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Nurefsan_Sariipek.jpg' alt='Nurefsan Saripek' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Nurefsan Saripek<\/h4><p style='margin: 5px 0;'>Nurefsan started her residency at Yale School of Medicine in 2025.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Noha_Awais.jpg' alt='Noha Awais' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Noha Awais<\/h4><p style='margin: 5px 0;'>Noha started as a medical student at Harvard Medical School in 2025.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Adrienne_Parsons.jpg' alt='Adrienne Parsons' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Adrienne Parsons<\/h4><p style='margin: 5px 0;'>Adrienne continued her career at AI healthcare startup Aitia in 2026.<\/p><\/div>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]}],"setView":[[20,-30],2,[]],"limits":{"lat":[39.14057493497279,47.8015492611432],"lng":[-122.1935323153424,32.78472660149568]}},"evals":["calls.2.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-5b2f872a2840a1531596" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-5b2f872a2840a1531596">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Voyager",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[42.80160198534935,42.36516686902243,42.33638598770364,39.92538859206633,39.14057493497279,40.85069895841855,47.8015492611432,42.33569142415681,41.30340404108865,42.33571930804914,42.36117930162384,43.66364219726007],[-1.659210888903942,-71.07953954532121,-71.10670861471547,32.78472660149568,-84.5008852422916,-73.84593438929224,-122.1935323153424,-71.16841244281315,-72.93388313754483,-71.10421707057944,-71.10116213309855,-79.39583803202832],6,null,null,{"interactive":true,"className":"","stroke":true,"color":"black","weight":1,"opacity":0.5,"fill":true,"fillColor":"#18bc9c","fillOpacity":0.5},null,null,["<div style='text-align: left; width: 180px;'><img src='images/people/Marina_Ainciburu.jpg' alt='Marina Ainciburu' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Marina Ainciburu<\/h4><p style='margin: 5px 0;'>Marina went back to finish her graduate work at the University of Navarra in 2021.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Jean_Acosta.png' alt='Jean Acosta' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Jean Acosta<\/h4><p style='margin: 5px 0;'>Jean went to work at bluebird bio in 2021.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Jenny_Noel.jpg' alt='Jenny Noel' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Jenny Noel<\/h4><p style='margin: 5px 0;'>Jenny went to pursue her Nursing degree at MGH and BWH in 2022.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Feyza_Canan.jpeg' alt='Feyza Canan' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Feyza Canan<\/h4><p style='margin: 5px 0;'>Feyza returned to Medical School in Ankara after her 2022 summer internship.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Erica_DePasquale.jpg' alt='Erica DePasquale' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Erica DePasquale<\/h4><p style='margin: 5px 0;'>Erica left the lab in 2022 and is now an Assistant Professor at Cincinnati Children's Hospital.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Daniel_Ssozi.jpeg' alt='Daniel Ssozi' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Daniel Ssozi<\/h4><p style='margin: 5px 0;'>Daniel started the Albert Einstein MD/PhD program in 2023.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Kyle_Romine.jpg' alt='Kyle Romine' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Kyle Romine<\/h4><p style='margin: 5px 0;'>Kyle went to head a team investigating antibody-drug conjugates at Seagen in 2023.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Sarah_Bibeau.jpg' alt='Sarah Bibeau' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Sarah Bibeau<\/h4><p style='margin: 5px 0;'>Sarah started her graduate program at Boston College in 2023.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Nurefsan_Sariipek.jpg' alt='Nurefsan Saripek' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Nurefsan Saripek<\/h4><p style='margin: 5px 0;'>Nurefsan started her residency at Yale School of Medicine in 2025.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Noha_Awais.jpg' alt='Noha Awais' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Noha Awais<\/h4><p style='margin: 5px 0;'>Noha started as a medical student at Harvard Medical School in 2025.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Adrienne_Parsons.jpg' alt='Adrienne Parsons' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Adrienne Parsons<\/h4><p style='margin: 5px 0;'>Adrienne continued her career at AI healthcare startup Aitia in 2026.<\/p><\/div>","<div style='text-align: left; width: 180px;'><img src='images/people/Jonathan_Good.jpg' alt='Jonathan Good' style='width: 150px; height: 150px; object-fit: cover;'><h4 style='margin: 5px 0;'>Jonathan Good<\/h4><p style='margin: 5px 0;'>Jonathan started his PhD at the University of Toronto in 2026.<\/p><\/div>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]}],"setView":[[20,-30],2,[]],"limits":{"lat":[39.14057493497279,47.8015492611432],"lng":[-122.1935323153424,32.78472660149568]}},"evals":["calls.2.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
 </div>
 </div>
 <section id="postdocs" class="level3">
@@ -243,36 +248,42 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
+<td>Jonathan Good</td>
+<td>2021-2026</td>
+<td>Research technician</td>
+<td>PhD Program, University of Toronto</td>
+</tr>
+<tr class="even">
 <td>Adrienne Parsons</td>
 <td>2021-2026</td>
 <td>Research scientist</td>
 <td>Scientist 2, Aita</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Noha Awais</td>
 <td>2022-2025</td>
 <td>Research technician</td>
 <td>Medical Student, Harvard Medical School</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Sarah Bibeau</td>
 <td>2022-2023</td>
 <td>Research technician</td>
 <td>PhD Program, Boston College</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Daniel Ssozi</td>
 <td>2019-2023</td>
 <td>Research technician</td>
 <td>MD/PhD Program, Albert Einstein College of Medicine</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Jenny Noel</td>
 <td>2021-2022</td>
 <td>Research technician</td>
 <td>MGH School of Nursing</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Jean Acosta</td>
 <td>2019-2021</td>
 <td>Research technician</td>

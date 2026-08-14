@@ -11,7 +11,7 @@ title-block-banner: "#2c3e50"
 **Peter van Galen, PhD**  
 *Principal Investigator*  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:pvangalen@bwh.harvard.edu)
-&nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/vangalenlab.bsky.social)  
+<!-- &nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/vangalenlab.bsky.social)   -->
 &nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/petervangalen)
 &nbsp;<i class="fa-brands fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-0735-1570)  
 &nbsp;<i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=y3NC0VgAAAAJ)
@@ -43,7 +43,7 @@ Hematopoietic stem cell (HSC) aging and expansion, bioinformatics.
 
 **Basit Salik, PhD**  
 *Postdoctoral Fellow*  
-HSC aging, leukemia prevention, and immunotherapeutic targeting.  
+HSC aging and leukemia prevention.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:bsalik@bwh.harvard.edu)
 &nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/basitsalik.bsky.social)
 :::
@@ -59,13 +59,12 @@ Protein translation and stress signaling in AML.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/people/Jonathan_Good.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
-**Jonathan Good**  
-*Research Technician*  
-Single-cell multiomics and lab management.  
-<i class="fa-regular fa-envelope"></i> [Email](mailto:jgood1@bwh.harvard.edu)
-&nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/jdgood1.bsky.social)
+**Nicole Zhao**  
+*Graduate Student*  
+Immunotherapeutic targeting of leukemia cells.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:nzhao5@mgh.harvard.edu)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -75,6 +74,15 @@ Single-cell multiomics and lab management.
 *Research Technician*  
 Protein translation initiation factors and lab management.  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:htolson@mgb.org)  
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+
+**Naga Tata**  
+*Research Technician*  
+HSC aging and lab management.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:ntata1@bwh.harvard.edu)
 :::
 
 ::: {.g-col-12 .g-col-md-4}

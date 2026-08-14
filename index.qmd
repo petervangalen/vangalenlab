@@ -75,21 +75,27 @@ At the Van Galen Lab, we’re not just advancing the frontier of blood and leuke
 **Our work is made possible by past and present supporters:**
 
 ::: {style="text-align: center;"}
+<!-- Main -->
 ![Ludwig](images/supporters/Ludwig.svg){.supporter-logo}
 ![NCI](images/supporters/NCI.png){.supporter-logo}
 ![NHLBI](images/supporters/NHLBI.svg){.supporter-logo}
+<!-- Other current -->
+![BCUnited](images/supporters/BCUnited.png){.supporter-logo}
 ![ACS](images/supporters/ACS.svg){.supporter-logo}
+![ASH](images/supporters/ASH.svg){.supporter-logo}
 ![AFAR](images/supporters/AFAR.png){.supporter-logo}
+![Waxman](images/supporters/Waxman.svg){.supporter-logo}
+![Mark](images/supporters/Mark.png){.supporter-logo}
+![MPNRF](images/supporters/MPNRF.png){.supporter-logo}
+<!-- Former -->
 ![EvansMDS](images/supporters/EvansMDS.png){.supporter-logo}
 ![Dresner](images/supporters/Dresner.png){.supporter-logo}
-![MPNRF](images/supporters/MPNRF.png){.supporter-logo}
 ![Hevolution](images/supporters/Hevolution.png){.supporter-logo}
 ![Starr](images/supporters/Starr.png){.supporter-logo}
 ![Forbeck](images/supporters/Forbeck.png){.supporter-logo}
-![BCUnited](images/supporters/BCUnited.png){.supporter-logo}
+<!-- Industry -->
 ![Abbvie](images/supporters/AbbVie.svg){.supporter-logo}
-![ASH](images/supporters/ASH.svg){.supporter-logo}
-![Waxman](images/supporters/Waxman.svg){.supporter-logo}
+![Merck](images/supporters/Merck.png){.supporter-logo}
 :::
 
 ::: {.organizations-bar}
