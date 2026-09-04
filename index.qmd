@@ -85,23 +85,24 @@ At the Van Galen Lab, we’re not just advancing the frontier of blood and leuke
 ![ASH](images/supporters/ASH.svg){.supporter-logo}
 ![AFAR](images/supporters/AFAR.png){.supporter-logo}
 ![Waxman](images/supporters/Waxman.svg){.supporter-logo}
-![Mark](images/supporters/Mark.png){.supporter-logo}
+<!-- ![Mark](images/supporters/Mark.png){.supporter-logo} -->
 ![MPNRF](images/supporters/MPNRF.png){.supporter-logo}
 <!-- Former -->
 ![EvansMDS](images/supporters/EvansMDS.png){.supporter-logo}
-![Dresner](images/supporters/Dresner.png){.supporter-logo}
+![Dresner](images/supporters/VJDF.png){.supporter-logo}
 ![Hevolution](images/supporters/Hevolution.png){.supporter-logo}
 ![Starr](images/supporters/Starr.png){.supporter-logo}
 ![Forbeck](images/supporters/Forbeck.png){.supporter-logo}
 <!-- Industry -->
 ![Abbvie](images/supporters/AbbVie.svg){.supporter-logo}
-![Merck](images/supporters/Merck.png){.supporter-logo}
+![Merck](images/supporters/Merck.svg){.supporter-logo}
 :::
 
 ::: {.organizations-bar}
 <!-- ![MGB](images/orgs/MGB.png){.org-logo} -->
 ![BWH](images/orgs/BWH.png){.org-logo style="filter: brightness(0) invert(1);"}
 ![Harvard Medical School](images/orgs/HMS.svg){.org-logo style="width:130px; height:auto;"}
+![Harvard Cancer Center](images/orgs/HCC.png){.org-logo style="width:130px; height:auto;"}
 ![Broad Institute](images/orgs/Broad.svg){.org-logo style="width:130px; height:auto;"}
 <!-- ![Ludwig Center](images/orgs/Ludwig.png){.org-logo} -->
 <!-- ![BIG](images/orgs/BIG.png){.org-logo} -->

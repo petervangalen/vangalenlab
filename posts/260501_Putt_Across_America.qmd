@@ -1,0 +1,16 @@
+---
+title: "Miniputting at Faneuil Hall"
+date: "2026-05-01"
+image: "../images/posts/260501_Putt_Across_America.jpeg"
+description: "Putt Across America"
+---
+
+::: {.hero-banner}
+::: {.banner-text}
+News & events
+:::
+:::
+
+![Thanks to Jennifer for organizing!](../images/posts/260501_Putt_Across_America.jpeg){style="width: 100%; max-width: 800px; height: auto; display: block; margin: 1rem auto;"}
+
+Combined lab event with Koduri and Hollenhorst labs.

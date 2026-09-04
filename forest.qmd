@@ -38,7 +38,7 @@ alumni_data <- tribble(
 # Create the map
 alumni_data %>%
   leaflet() %>%
-  addProviderTiles(providers$CartoDB.Voyager) %>%
+  addProviderTiles(providers$OpenStreetMap.Mapnik) %>%
   setView(lng = -30, lat = 20, zoom = 2) %>%
   addCircleMarkers(
     ~lng,

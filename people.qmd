@@ -12,9 +12,10 @@ title-block-banner: "#2c3e50"
 *Principal Investigator*  
 <i class="fa-regular fa-envelope"></i> [Email](mailto:pvangalen@bwh.harvard.edu)
 <!-- &nbsp;<i class="fab fa-bluesky"></i> [Bluesky](https://bsky.app/profile/vangalenlab.bsky.social)   -->
-&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/petervangalen)
+&nbsp;<i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/peter-van-galen)
 &nbsp;<i class="fa-brands fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-0735-1570)  
 &nbsp;<i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=y3NC0VgAAAAJ)
+&nbsp;<i class="fab fa-github"></i> [GitHub](https://github.com/petervangalen)
 &nbsp;<i class="fas fa-dna"></i> [Addgene](https://www.addgene.org/Peter_van_Galen/)
 &nbsp;<i class="fas fa-database"></i> [Figshare](https://figshare.com/authors/Peter_van_Galen/20616098)
 :::
@@ -49,6 +50,15 @@ HSC aging and leukemia prevention.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
+![](images/people/Birnur_Sinem_Ozcelik.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+
+**Birnur Sinem Ozcelik, MD**  
+*Postdoctoral Fellow*  
+New targeted therapies for AML.  
+<i class="fa-regular fa-envelope"></i> [Email](mailto:bozcelik@bwh.harvard.edu)
+:::
+
+::: {.g-col-12 .g-col-md-4}
 ![](images/people/Jingting_Lin.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Jingting Lin**  
@@ -59,7 +69,7 @@ Protein translation and stress signaling in AML.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+![](images/people/Nicole_Zhao.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Nicole Zhao**  
 *Graduate Student*  
@@ -77,7 +87,7 @@ Protein translation initiation factors and lab management.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](images/people/missing_person.svg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
+![](images/people/Naga_Tata.jpg){style="width:180px; height:250px; object-fit:cover; margin:0;"}
 
 **Naga Tata**  
 *Research Technician*  

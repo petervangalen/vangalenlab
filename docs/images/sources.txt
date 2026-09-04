@@ -19,6 +19,7 @@ BWH.png: https://partnershealthcare.sharepoint.com/:w:/r/sites/Vitals/_layouts/1
 HMS.svg: https://identityguide.hms.harvard.edu
 
 #### PEOPLE ####
+Naga_Tata.jpg: Slack message 260824
 Ksenia_Safina.jpeg: "OneDrive-MassGeneralBrighamIncorporated/People/220328 Ksenia Safina/250825 Ksenia Safina.JPG" (exported smaller version using Preview)
 Peter_van_Galen.jpg: exported from Photos then match to system sRGB Profile
 missing_person.svg: from https://www.veryicon.com/icons/miscellaneous/bitisland-world/person-18.html, edited in Illustrator
@@ -42,18 +43,20 @@ WAT3R-logo.png: https://github.com/mainciburu/WAT3R/blob/main/logo/WAT3Rlogo.png
 #### SUPPORTERS ####
 Abbvie.svg: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/250621 AbbVie.svg"
 ASC.svg: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/241013 ACS.svg"
-ASH.svg: "https://www.hematology.org"
 AFAR.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/210212 AFAR 300x300.ai"
+ASH.svg: "https://www.hematology.org"
 BCUnited.png: "OneDrive-MassGeneralBrighamIncorporated/Admin/Branding/Blood Cancer United 250916/BCUnited_Logo_TransitionalLockup_RGB_Landscape_Isnow.png"
-Dresner.png: https://dbgdetroit.org/our-partners/dresner-foundation/
 EvansMDS.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/240224 EvansMDS.ai"
 Forbeck.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/240224 Forbeck.ai"
 Hevolution.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/250610 Hevolution.png"
 Ludwig.svg: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/210212 LudwigHarvard 300x300.ai"
+Mark.png: "https://themarkfoundation.org/wp-content/uploads/2025/10/MFCR-Logo-350x250-1-960x655.png"
+Merck.svg: "https://upload.wikimedia.org/wikipedia/commons/9/94/Merck_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
 MPNRF.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/241020 MPNRF.png"
 NCI.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/170703 NCI logo.ai"
 NHLBI.svg: "https://www.nhlbi.nih.gov"
 Starr.png: "OneDrive-MassGeneralBrighamIncorporated/Presentations/Figures/Logos/240226 SCC.ai"
+VJDF.png: email from Sam Shopinski, 260817
 Waxman.svg: "https://themarkfoundation.org/waxmaninstitute/"
 
 
